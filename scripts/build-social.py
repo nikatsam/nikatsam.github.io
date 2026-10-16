@@ -77,7 +77,7 @@ def product_card(p):
     draw_text_block(draw, left, y + 26, body_lines, f_body, MUTED, 46)
 
     draw.text((left, H - 90), "Nikatsam", font=f_brand, fill=TEXT)
-    draw.text((left + 138, H - 88), "No tracking  ·  Offline first", font=f_label, fill=MUTED)
+    draw.text((left + 138, H - 88), "Apps: no tracking  ·  Offline first", font=f_label, fill=MUTED)
 
     # Preview on the right, framed with a rounded border
     preview = ROOT / "assets" / "previews" / f"{p['slug']}.webp"
@@ -100,7 +100,7 @@ def site_card(cfg):
     f_title = ImageFont.truetype(FONT_BOLD, 84)
     y = draw_text_block(draw, 80, 190, wrap(draw, "Windows apps and games", f_title, 1000), f_title, TEXT, 98)
     f_body = ImageFont.truetype(FONT, 36)
-    draw_text_block(draw, 80, y + 24, wrap(draw, "Small, useful tools built by one developer. No tracking, no accounts, offline first.", f_body, 1000), f_body, MUTED, 50)
+    draw_text_block(draw, 80, y + 24, wrap(draw, "Small, useful Windows tools built by one developer. The apps have no tracking, no accounts and work offline.", f_body, 1000), f_body, MUTED, 50)
     return img
 
 
