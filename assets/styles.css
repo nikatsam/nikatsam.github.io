@@ -351,7 +351,7 @@ p { margin: 0 0 1rem; }
 /* Mobile */
 @media (max-width: 760px) {
   .split { grid-template-columns: 1fr; }
-  .site-header nav a:not(:last-child) { display: none; }
+  .site-header nav:not(.lang-switch) a:not(:last-child) { display: none; }
   .grid { grid-template-columns: 1fr; }
 }
 
@@ -514,12 +514,17 @@ dialog.project-dialog .lead { font-size: 1rem; margin-bottom: 0.6rem; }
 .shots figure { margin: 0; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
 .shots img { display: block; width: 100%; height: auto; }
 
-/* Language switcher in the header */
-.lang-switch { display: flex; flex-wrap: wrap; gap: 0.3rem 0.7rem; font-size: 0.82rem; }
-.lang-switch a { color: var(--muted); font-weight: 600; }
-.lang-switch a:hover { color: var(--text); text-decoration: none; }
-.lang-switch a[aria-current="true"] { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
-
-/* Japanese text: use Japanese system fonts */
-:lang(ja) { font-family: "Yu Gothic UI", "Yu Gothic", "Hiragino Sans", "Meiryo", system-ui, sans-serif; line-height: 1.75; }
-:lang(ja) h1, :lang(ja) h2, :lang(ja) h3 { letter-spacing: 0; }
+/* Header tools: language codes and the theme switch on one compact row */
+.header-tools { display: flex; align-items: center; gap: 0.6rem; }
+.lang-switch { display: flex; align-items: center; gap: 0.2rem; }
+.lang-switch a {
+  color: var(--muted); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em;
+  padding: 0.28rem 0.42rem; border-radius: 6px; border: 1px solid transparent; line-height: 1;
+}
+.lang-switch a:hover { color: var(--text); border-color: var(--line); text-decoration: none; }
+.lang-switch a[aria-current="true"] { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+.site-header nav:not(.lang-switch) { flex: 1; justify-content: center; }
+@media (max-width: 760px) {
+  .site-header nav:not(.lang-switch) { flex-wrap: wrap; justify-content: flex-start; gap: 0.2rem 0.8rem; }
+  .header-tools { margin-left: auto; }
+}

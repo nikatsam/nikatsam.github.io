@@ -35,8 +35,16 @@ const headLinks = (P) => {
     + `\n  <link rel="alternate" hreflang="x-default" href="${g.en}">`;
 };
 
+const CODE = { en: "EN", es: "ES", fr: "FR", de: "DE", pt: "PT", ja: "JA" };
 const switcher = (cur, P, label) => `<nav class="lang-switch" aria-label="${esc(label)}">${["en", ...LANGS]
-  .map((l) => `<a href="${pathFor(l, P)}" hreflang="${l}" lang="${l}"${l === cur ? ' aria-current="true"' : ""}>${NATIVE[l]}</a>`).join("")}</nav>`;
+  .map((l) => `<a href="${pathFor(l, P)}" hreflang="${l}" lang="${l}" title="${NATIVE[l]}"${l === cur ? ' aria-current="true"' : ""}>${CODE[l]}</a>`).join("")}</nav>`;
+
+// The theme switch, shared by every page. main.js handles the click and the T key.
+const THEME_BUTTON = `<button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to light theme" title="Shortcut: T">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <span>Light</span>
+      </button>`;
+const headerTools = (cur, P, label) => `<div class="header-tools">${switcher(cur, P, label)}${THEME_BUTTON}</div>`;
 
 const shell = ({ lang, title, desc, P, depth, header, main, ld }) => {
   const rel = "../".repeat(depth);
@@ -70,7 +78,7 @@ const siteHeader = (lang, P, home, ui, navLinks) => `  <header class="site-heade
       <span>Nikatsam</span>
     </a>
     <nav aria-label="Main">${navLinks}</nav>
-    ${switcher(lang, P, ui.lang_label)}
+    ${headerTools(lang, P, ui.lang_label)}
   </header>`;
 
 const statusOf = (p, ui) => ({ label: ui["status_" + p.status] ?? statusText[p.status], cls: statusClass[p.status] });
@@ -317,7 +325,10 @@ const injectEnglish = async (file, P) => {
   t = t.replace(/\s*<!-- i18n-head -->[\s\S]*?<!-- \/i18n-head -->/g, "")
        .replace(/\s*<!-- i18n-switch -->[\s\S]*?<!-- \/i18n-switch -->/g, "");
   const head = `\n  <!-- i18n-head -->\n  ${headLinks(P)}\n  <!-- /i18n-head -->\n`;
-  const sw = `\n    <!-- i18n-switch -->${switcher("en", P, dict.es.ui.lang_label)}<!-- /i18n-switch -->\n  `;
+  // Pages that already have a theme button (the hand-written home page) only get the language codes
+  const hasTheme = /id="theme-toggle"/.test(t);
+  const tools = hasTheme ? switcher("en", P, dict.es.ui.lang_label) : headerTools("en", P, dict.es.ui.lang_label);
+  const sw = `\n    <!-- i18n-switch -->${tools}<!-- /i18n-switch -->\n  `;
   t = t.replace("</head>", `${head}</head>`).replace("</header>", `${sw}</header>`);
   await writeFile(path, t, "utf8");
 };
