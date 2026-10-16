@@ -1,0 +1,260 @@
+{
+  "lang": "pt",
+  "name": "Português",
+  "ui": {
+    "nav_about": "Sobre",
+    "nav_projects": "Projetos",
+    "nav_privacy": "Privacidade",
+    "nav_bugs": "Erros",
+    "eyebrow": "Desenvolvedor independente · Windows 11 · Aberto a ideias",
+    "title_before": "Crio apps pequenos e úteis para ",
+    "title_grad": "Windows",
+    "title_after": " e as ferramentas que os cercam.",
+    "lead": "Utilitários de desktop, sites de produtos, guias e, de vez em quando, um jogo. Tudo o que está abaixo está no ar, e grande parte pode ser testada gratuitamente.",
+    "cta_explore": "Explorar projetos",
+    "stat_projects": "projetos",
+    "stat_sites": "sites no ar",
+    "stat_apps": "apps para Windows",
+    "strip": "Os apps da Nikatsam exigem: <strong>SEM rastreamento</strong>, <strong>SEM contas</strong> e funcionam <strong>OFFLINE</strong>.",
+    "strip_link": "Por que isso importa →",
+    "about_eyebrow": "Sobre",
+    "about_title": "Um desenvolvedor, muitos projetos pequenos",
+    "about_p1": "Sou um desenvolvedor independente que cria ferramentas e jogos para Windows por diversão. Alguns geram uma pequena renda extra, que financia o próximo projeto.",
+    "about_p2": "Eu mesmo escrevo o código, os guias e as páginas da Store. Se algo daqui for útil para você, esse é o melhor retorno que eu poderia receber.",
+    "about_points": [
+      "Ferramentas de desktop para Windows que resolvem bem um problema específico.",
+      "Jogos pequenos, feitos por diversão.",
+      "Sites, guias e páginas de privacidade para cada lançamento."
+    ],
+    "projects_eyebrow": "Projetos",
+    "projects_title": "Escolha um e dê uma olhada",
+    "projects_lead": "Cada cartão resume um projeto. Clique nele para ver os detalhes.",
+    "filter_label": "Filtrar projetos",
+    "filter_all": "Todos",
+    "filter_apps": "Apps para Windows",
+    "filter_games": "Jogos",
+    "sort_label": "Ordenar projetos",
+    "sort_az": "A–Z",
+    "sort_oldest": "Mais antigos primeiro",
+    "sort_newest": "Mais recentes primeiro",
+    "no_projects": "Não há projetos com este filtro.",
+    "status_live": "No ar",
+    "status_soon": "Em breve na Store",
+    "status_repo": "Apenas código-fonte",
+    "badge_app": "App para Windows",
+    "badge_game": "Jogo",
+    "btn_details": "Detalhes",
+    "btn_visit": "Visitar o site",
+    "btn_store": "Microsoft Store",
+    "btn_report": "Relatar um erro",
+    "btn_github": "Ver no GitHub",
+    "dialog_who": "Para quem é:",
+    "dialog_does": "O que faz",
+    "dialog_doesnt": "O que não faz",
+    "dialog_full": "Página completa",
+    "back_all": "← Voltar a todos os projetos",
+    "footer_built": "Site estático. Código-fonte no GitHub.",
+    "footer_disclaimer": "Não é afiliado à Microsoft. Os nomes dos produtos pertencem aos seus proprietários.",
+    "lang_label": "Idioma",
+    "home_title": "Nikatsam | Apps e jogos para Windows de um desenvolvedor independente",
+    "home_desc": "Apps e jogos para Windows da Nikatsam: utilitários de desktop, sites de produtos, guias e um jogo de tower defense. Explore, baixe ou relate um erro.",
+    "app_suffix": "app para Windows",
+    "game_suffix": "jogo para Windows",
+    "crumb_home": "Início",
+    "app_back": "← Voltar a todos os projetos",
+    "app_what": "O que faz",
+    "app_doesnt": "O que não faz",
+    "app_who": "Para quem é:",
+    "app_store": "Obter na Microsoft Store",
+    "app_website": "Visitar o site",
+    "app_github": "Ver no GitHub",
+    "app_bug": "Relatar um erro",
+    "app_shots": "Capturas de tela"
+  },
+  "projects": {
+    "traypilot": {
+      "tagline": "Brilho, áudio e estatísticas de rede, com um clique a partir da bandeja do sistema.",
+      "excerpt": "Um painel compacto para Windows 11 que mantém os controles do dia a dia à mão: ajuste monitores compatíveis, escolha dispositivos de reprodução, acompanhe a velocidade da rede em tempo real e altere configurações comuns. Você escolhe o atalho que o abre.",
+      "audience": "Para usuários do Windows 11 que querem controles de tela, áudio e rede a um clique.",
+      "features": [
+        "Ajuste o brilho de monitores compatíveis, com alternativa para telas de notebook",
+        "Troque o dispositivo de reprodução e silencie alto-falantes ou microfones com um clique",
+        "Veja as velocidades de download e upload dos adaptadores de rede ativos",
+        "Atalhos para tema, luz noturna, modo de energia, ícones da área de trabalho e bloqueio",
+        "Escolha seu próprio atalho de teclado para abrir o painel"
+      ],
+      "limits": [
+        "Exigir login, sincronização na nuvem ou rastreamento de uso",
+        "Usar o microfone ou capturar a tela",
+        "Executar um serviço permanente em segundo plano"
+      ]
+    },
+    "clerkbrain": {
+      "tagline": "IA local que organiza recibos e faturas da sua pasta Downloads, sem enviar nada.",
+      "excerpt": "O ClerkBrain acompanha as pastas que você escolhe, lê os documentos novos (PDF, arquivos do Office, fotos e digitalizações), extrai os números principais e permite pesquisar ou fazer perguntas sobre eles. As sugestões de nomes e pastas esperam sua aprovação, e a IA no próprio dispositivo nunca envia seus arquivos para outro lugar.",
+      "audience": "Para quem tem pilhas de faturas e recibos e quer organizá-los sem enviá-los a lugar nenhum.",
+      "features": [
+        "Trabalha com PDF, arquivos do Office, fotos e digitalizações das pastas que você seleciona",
+        "Extrai fornecedor, data, valor total e número da fatura",
+        "Pesquisa por palavras ou por significado, depois de instalados os modelos de IA opcionais",
+        "Responde perguntas em linguagem natural e indica os documentos de origem",
+        "Sugere nomes e pastas, com desfazer em cada alteração",
+        "Sinaliza leituras incertas e encontra duplicatas e sobras",
+        "Gera um pacote anual para o seu contador"
+      ],
+      "limits": [
+        "Enviar seus documentos a qualquer lugar: a IA roda no seu dispositivo",
+        "Arquivar qualquer coisa sem perguntar: o arquivamento automático fica desligado até você ativá-lo"
+      ]
+    },
+    "craft-fair-profit": {
+      "tagline": "Planejamento offline para feiras de artesanato: estoque, custos, vendas e ponto de equilíbrio.",
+      "excerpt": "Calcule se uma feira de artesanato vale a pena antes de reservar. Registre o estoque, as despesas e as vendas de cada evento, e depois revise o que levar e quanto o dia realmente rendeu.",
+      "audience": "Para artesãos que planejam uma feira e querem saber se ela vai compensar.",
+      "features": [
+        "Reúne estoque, custos e vendas de cada evento",
+        "Estima o ponto de equilíbrio antes de se comprometer com um estande",
+        "Listas de conferência do que levar e do que registrar",
+        "Permite revisar cada evento depois, para ver o que funcionou"
+      ],
+      "limits": []
+    },
+    "fix-my-photo-library": {
+      "tagline": "Verifique backups de fotos, encontre duplicatas e confira o estado das imagens, tudo no seu PC.",
+      "excerpt": "Compara backups pelo conteúdo, para que cópias renomeadas continuem sendo reconhecidas. Remove duplicatas exatas com opção de desfazer, sinaliza imagens danificadas e revisa as informações de data da câmera. As alterações são reversíveis e nada é enviado.",
+      "audience": "Para quem tem uma biblioteca de fotos bagunçada, cheia de duplicatas, e quer limpá-la com segurança.",
+      "features": [
+        "Confirma backups comparando o conteúdo, para que cópias renomeadas continuem correspondendo",
+        "Encontra arquivos idênticos e move os excedentes para uma quarentena reversível",
+        "Analisa imagens em busca de erros de decodificação, separando danos reais de formatos sem suporte",
+        "Revisa a data da câmera e o fuso horário antes de alterar as datas dos arquivos",
+        "Restaura uma foto danificada a partir de uma cópia íntegra, como cópia separada e verificada"
+      ],
+      "limits": [
+        "Reescrever metadados EXIF ou adivinhar fusos horários ausentes",
+        "Reparar dados de pixels danificados",
+        "Enviar suas fotos para qualquer lugar para processamento"
+      ]
+    },
+    "fix-my-photo-dates": {
+      "tagline": "Corrige as datas das fotos após exportações do Takeout, downloads da nuvem ou mudanças de arquivos.",
+      "excerpt": "Quando as datas ficam erradas depois de uma exportação ou de uma mudança, esta ferramenta encontra a divergência, mostra a correção sugerida e permite desfazê-la. Tudo roda no seu PC com Windows.",
+      "audience": "Para quem vê datas incorretas nas fotos depois de exportá-las ou movê-las.",
+      "features": [
+        "Diagnostica e corrige as datas após exportações do Takeout, do iCloud ou mudanças de arquivos",
+        "Mostra uma prévia antes de qualquer alteração e permite reverter",
+        "Todo o processamento fica no seu PC com Windows"
+      ],
+      "limits": []
+    },
+    "renamefromfolder": {
+      "tagline": "Nomeia os arquivos pela pasta em que estão, com prévia antes de qualquer alteração.",
+      "excerpt": "Acrescenta o nome da pasta-mãe a cada arquivo de uma árvore de pastas. Você vê cada alteração antes que ela aconteça e pode desfazer o lote inteiro depois. Funciona no Windows 10 e 11.",
+      "audience": "Para quem organiza os arquivos em pastas bem nomeadas e quer que os nomes dos arquivos acompanhem.",
+      "features": [
+        "Acrescenta a cada arquivo o nome da pasta-mãe, inclusive em subpastas",
+        "Mostra cada alteração prevista antes de aplicar qualquer uma",
+        "Desfaz um lote inteiro quando você precisar",
+        "Funciona no Windows 10 e 11"
+      ],
+      "limits": []
+    },
+    "shelfsearch": {
+      "tagline": "Pesquise em discos externos e compartilhamentos de rede, mesmo quando estiverem desconectados.",
+      "excerpt": "O ShelfSearch cria um índice local dos nomes de arquivos e dos caminhos de pastas de cada disco que você registra. Quando um disco está desconectado, você continua vendo onde está cada arquivo, para saber qual disco reconectar.",
+      "audience": "Para quem tem arquivos espalhados por vários discos e precisa encontrá-los rápido.",
+      "features": [
+        "Registra discos externos e removíveis, unidades mapeadas e compartilhamentos de rede escolhidos",
+        "Pesquisa enquanto um disco está desconectado e mostra onde ele está",
+        "Mostra o status de conexão, a capacidade e o espaço livre de cada disco",
+        "Exporta os resultados da pesquisa para CSV",
+        "Guarda o índice no seu próprio PC"
+      ],
+      "limits": [
+        "Ler o conteúdo dos arquivos ou gerar miniaturas",
+        "Enviar arquivos, usar sincronização na nuvem ou exigir uma conta online"
+      ]
+    },
+    "what-was-i-working-on": {
+      "tagline": "Volte ao arquivo que você tinha aberto ontem, encontrado em segundos com um único atalho.",
+      "excerpt": "Os arquivos e pastas recentes são reunidos em um histórico pesquisável. Uma visualização rápida ou uma linha do tempo completa permite reabrir o item certo, e o registro nunca sai do seu computador.",
+      "audience": "Para quem perde o fio do que estava fazendo e precisa voltar rápido.",
+      "features": [
+        "Abre uma visualização rápida do trabalho recente com um atalho",
+        "Navega por uma linha do tempo completa: hoje, ontem, últimos 7 dias e últimos 30 dias",
+        "Filtra por nome, pasta, aplicativo ou extensão",
+        "Reabre arquivos e pastas diretamente pelo histórico",
+        "Widget opcional do Windows 11 e lembretes para aplicativos compatíveis",
+        "Procura pastas de recuperação de aplicativos conhecidos, apenas quando você inicia",
+        "Histórico e cópias de recuperação criptografados"
+      ],
+      "limits": [
+        "Exigir conta, serviço em nuvem, telemetria ou acesso à internet",
+        "Enviar seu histórico ou o conteúdo dos seus documentos"
+      ]
+    },
+    "tower-defence-riftward": {
+      "tagline": "Uma campanha de tower defense com cercos elementais: quatro rotas, nove famílias de torres e sessenta ondas.",
+      "excerpt": "Planeje suas defesas em quatro rotas, combine nove famílias de torres e resista a sessenta ondas cada vez mais difíceis em uma campanha para um jogador.",
+      "audience": "Para fãs de tower defense que querem resistir a um cerco elemental.",
+      "features": [
+        "Campanha para um jogador centrada em torres elementais",
+        "Escolha entre quatro rotas",
+        "Nove famílias de torres para construir e combinar",
+        "Sessenta ondas de ataques cada vez mais intensos"
+      ],
+      "limits": []
+    },
+    "blobheads-voleyball-arcade": {
+      "tagline": "Um vôlei arcade reimaginado para Windows, contra o computador ou um amigo.",
+      "excerpt": "Blobheads Voleyball Arcade é uma versão reimaginada do vôlei arcade. Jogue contra o computador, divida o teclado com um amigo no modo local para dois jogadores ou dispute o torneio de quatro rodadas Verde, Amarelo, Laranja e Vermelho.",
+      "audience": "Para quem gosta de partidas rápidas, contra o computador ou um amigo no mesmo teclado.",
+      "features": [
+        "Uma versão reimaginada do vôlei arcade",
+        "Partidas contra o computador ou contra um amigo no mesmo teclado",
+        "Torneio de quatro rodadas Verde, Amarelo, Laranja e Vermelho",
+        "Compatível com teclado, mouse e controle"
+      ],
+      "limits": []
+    },
+    "puzzlotski-puzzle": {
+      "tagline": "Um quebra-cabeça deslizante reimaginado, com fases próprias, disponível na Microsoft Store.",
+      "excerpt": "Puzzlotski Puzzle é um quebra-cabeça de blocos deslizantes reimaginado, com um conjunto original de fases. É um download pago único na Microsoft Store.",
+      "audience": "Para fãs de quebra-cabeças de blocos deslizantes que querem fases originais.",
+      "features": [
+        "Um quebra-cabeça de blocos deslizantes reimaginado",
+        "Um conjunto original de fases para vencer"
+      ],
+      "limits": []
+    }
+  },
+  "privacy": {
+    "title": "Privacidade primeiro | Nikatsam",
+    "description": "Por que os apps para Windows que eu crio são privados por design: sem rastreamento, sem contas e funcionando offline, e o que isso significa na prática.",
+    "eyebrow": "Privacidade primeiro",
+    "h1": "Ferramentas que não observam você",
+    "lead": "Toda ferramenta que eu crio segue uma regra: deve fazer o seu trabalho sem coletar dados de que não precisa. Aqui está o que isso significa na prática e o que não cobre.",
+    "sections": [
+      { "h2": "Por que isso importa", "paragraphs": [
+        "A maioria dos softwares para Windows é financiada pelos dados que coleta. Nomes dos seus arquivos, fotos, recibos e hábitos podem acabar em perfis que você nunca aceitou. Para ferramentas que mexem em arquivos pessoais, essa é a troca errada.",
+        "Por isso o ponto de partida é simples. Se um recurso precisa dos seus dados, deve rodar no seu PC. Se não precisa, não deveria pedi-los."
+      ]},
+      { "h2": "O que busco em todo app", "list": [
+        "<strong>Sem rastreamento.</strong> Sem identificadores de publicidade, sem kits de análise e sem telemetria oculta nos próprios apps.",
+        "<strong>Sem conta.</strong> Você não deveria precisar se cadastrar para usar uma ferramenta.",
+        "<strong>Offline primeiro.</strong> O trabalho acontece no seu dispositivo. Quando um download opcional é necessário, como um modelo de IA, isso é informado logo de início.",
+        "<strong>Políticas em linguagem simples.</strong> Cada app tem sua própria política de privacidade. Quando existe, o site do app leva até ela."
+      ]},
+      { "h2": "Sobre este site", "paragraphs": [
+        "Este site é um conjunto de páginas estáticas hospedadas no GitHub Pages. Ele apenas descreve os apps; as promessas de privacidade acima se aplicam aos apps.",
+        "O GitHub, como hospedagem, mantém seus próprios registros padrão de servidor sob a política de privacidade dele. Eu não consigo desativá-los e não tenho acesso a eles. Se quiser saber o que ele registra, leia a <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">declaração de privacidade do GitHub</a>."
+      ]},
+      { "h2": "O que esta página não cobre", "paragraphs": [
+        "Cada app é um produto separado, com sua própria política, e a Microsoft Store tem seus próprios termos para downloads e compras. Se algo aqui entrar em conflito com a política de um app, vale a política desse app."
+      ]},
+      { "h2": "Perguntas ou problemas", "paragraphs": [
+        "Se um app não corresponder ao que está escrito aqui, use o link «Relatar um erro» no cartão desse projeto. É o lugar público para isso."
+      ]}
+    ]
+  }
+}

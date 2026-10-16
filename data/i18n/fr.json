@@ -1,0 +1,260 @@
+{
+  "lang": "fr",
+  "name": "Français",
+  "ui": {
+    "nav_about": "À propos",
+    "nav_projects": "Projets",
+    "nav_privacy": "Confidentialité",
+    "nav_bugs": "Bugs",
+    "eyebrow": "Développeur indépendant · Windows 11 · Ouvert aux idées",
+    "title_before": "Je crée de petites applications utiles pour ",
+    "title_grad": "Windows",
+    "title_after": " et les outils qui les entourent.",
+    "lead": "Utilitaires de bureau, sites de produits, guides et, à l'occasion, un jeu. Tout ce qui figure ci-dessous est en ligne, et une bonne partie est gratuite à essayer.",
+    "cta_explore": "Découvrir les projets",
+    "stat_projects": "projets",
+    "stat_sites": "sites en ligne",
+    "stat_apps": "applications Windows",
+    "strip": "Les applications créées par Nikatsam exigent : <strong>AUCUN suivi</strong>, <strong>AUCUN compte</strong> et fonctionnent <strong>HORS LIGNE</strong>.",
+    "strip_link": "Pourquoi c'est important →",
+    "about_eyebrow": "À propos",
+    "about_title": "Un développeur, beaucoup de petits projets",
+    "about_p1": "Je suis un développeur indépendant qui crée des outils et des jeux Windows pour le plaisir. Certains rapportent un petit revenu d'appoint, qui finance le projet suivant.",
+    "about_p2": "J'écris moi-même le code, les guides et les fiches du Store. Si quelque chose ici vous est utile, c'est le meilleur retour que je puisse recevoir.",
+    "about_points": [
+      "Des outils de bureau Windows qui résolvent bien un problème précis.",
+      "De petits jeux, faits pour le plaisir.",
+      "Des sites web, des guides et des pages de confidentialité pour chaque version."
+    ],
+    "projects_eyebrow": "Projets",
+    "projects_title": "Choisissez-en un et jetez un œil",
+    "projects_lead": "Chaque carte présente un projet. Cliquez dessus pour voir les détails.",
+    "filter_label": "Filtrer les projets",
+    "filter_all": "Tous",
+    "filter_apps": "Applications Windows",
+    "filter_games": "Jeux",
+    "sort_label": "Trier les projets",
+    "sort_az": "A–Z",
+    "sort_oldest": "Plus anciens d'abord",
+    "sort_newest": "Plus récents d'abord",
+    "no_projects": "Aucun projet ne correspond à ce filtre.",
+    "status_live": "En ligne",
+    "status_soon": "Bientôt sur le Store",
+    "status_repo": "Code source uniquement",
+    "badge_app": "Application Windows",
+    "badge_game": "Jeu",
+    "btn_details": "Détails",
+    "btn_visit": "Visiter le site",
+    "btn_store": "Microsoft Store",
+    "btn_report": "Signaler un bug",
+    "btn_github": "Voir sur GitHub",
+    "dialog_who": "À qui s'adresse-t-elle :",
+    "dialog_does": "Ce qu'elle fait",
+    "dialog_doesnt": "Ce qu'elle ne fait pas",
+    "dialog_full": "Page complète",
+    "back_all": "← Retour à tous les projets",
+    "footer_built": "Site statique. Code source sur GitHub.",
+    "footer_disclaimer": "Non affilié à Microsoft. Les noms des produits appartiennent à leurs propriétaires.",
+    "lang_label": "Langue",
+    "home_title": "Nikatsam | Applications et jeux Windows d'un développeur indépendant",
+    "home_desc": "Applications et jeux Windows de Nikatsam : utilitaires de bureau, sites de produits, guides et un jeu de tower defense. Découvrez, téléchargez ou signalez un bug.",
+    "app_suffix": "application Windows",
+    "game_suffix": "jeu Windows",
+    "crumb_home": "Accueil",
+    "app_back": "← Retour à tous les projets",
+    "app_what": "Ce qu'elle fait",
+    "app_doesnt": "Ce qu'elle ne fait pas",
+    "app_who": "À qui s'adresse-t-elle :",
+    "app_store": "Obtenir sur Microsoft Store",
+    "app_website": "Visiter le site web",
+    "app_github": "Voir sur GitHub",
+    "app_bug": "Signaler un bug",
+    "app_shots": "Captures d'écran"
+  },
+  "projects": {
+    "traypilot": {
+      "tagline": "Luminosité, audio et statistiques réseau, à un clic depuis la barre des tâches.",
+      "excerpt": "Un panneau compact pour Windows 11 qui garde sous la main les commandes du quotidien : régler la luminosité des écrans compatibles, choisir les périphériques de lecture, suivre le débit réseau en direct et modifier les réglages courants. Vous choisissez le raccourci qui l'ouvre.",
+      "audience": "Pour les utilisateurs de Windows 11 qui veulent l'écran, l'audio et le réseau à portée de clic.",
+      "features": [
+        "Réglez la luminosité des écrans compatibles, avec une solution de repli pour les écrans d'ordinateur portable",
+        "Changez de périphérique de lecture et coupez le son des haut-parleurs ou des micros en un clic",
+        "Consultez les débits de téléchargement et d'envoi des adaptateurs réseau actifs",
+        "Raccourcis pour le thème, la lumière nocturne, le mode d'alimentation, les icônes du bureau et le verrouillage",
+        "Choisissez votre propre raccourci clavier pour ouvrir le panneau"
+      ],
+      "limits": [
+        "Exiger une connexion, une synchronisation cloud ou un suivi d'utilisation",
+        "Utiliser le micro ou capturer l'écran",
+        "Faire tourner un service permanent en arrière-plan"
+      ]
+    },
+    "clerkbrain": {
+      "tagline": "Une IA locale qui classe vos reçus et factures du dossier Téléchargements, sans rien envoyer.",
+      "excerpt": "ClerkBrain surveille les dossiers que vous choisissez, lit les nouveaux documents (PDF, fichiers Office, photos et scans), extrait les chiffres clés et vous permet de chercher ou de poser des questions à leur sujet. Les suggestions de noms et de dossiers attendent votre approbation, et l'IA embarquée sur votre appareil n'envoie jamais vos fichiers ailleurs.",
+      "audience": "Pour qui accumule factures et reçus et veut les classer sans les téléverser nulle part.",
+      "features": [
+        "Traite les PDF, fichiers Office, photos et scans des dossiers que vous sélectionnez",
+        "Extrait le fournisseur, la date, le montant total et le numéro de facture",
+        "Recherche par mots-clés ou par sens, une fois les modèles d'IA facultatifs installés",
+        "Répond aux questions en langage naturel et indique les documents d'origine",
+        "Propose des noms et des dossiers, avec annulation pour chaque modification",
+        "Signale les lectures incertaines et repère les doublons et les restes",
+        "Génère un dossier annuel pour votre comptable"
+      ],
+      "limits": [
+        "Envoyer vos documents ailleurs : l'IA fonctionne sur votre appareil",
+        "Classer quoi que ce soit sans demander : le classement automatique reste désactivé tant que vous ne l'activez pas"
+      ]
+    },
+    "craft-fair-profit": {
+      "tagline": "Une planification hors ligne pour les salons d'artisanat : stock, coûts, ventes et seuil de rentabilité.",
+      "excerpt": "Calculez si un salon d'artisanat en vaut la peine avant de réserver. Suivez le stock, les dépenses et les ventes de chaque événement, puis relisez ce qu'il faut emporter et ce que la journée a réellement rapporté.",
+      "audience": "Pour les artisans qui préparent un salon et veulent savoir si l'investissement en vaut la peine.",
+      "features": [
+        "Regroupe le stock, les coûts et les ventes de chaque événement",
+        "Estime le seuil de rentabilité avant de réserver un stand",
+        "Listes de contrôle de ce qu'il faut emporter et de ce qu'il faut noter",
+        "Permet de relire chaque événement pour voir ce qui a marché"
+      ],
+      "limits": []
+    },
+    "fix-my-photo-library": {
+      "tagline": "Vérifiez vos sauvegardes de photos, supprimez les doublons et contrôlez l'état des images, le tout sur votre PC.",
+      "excerpt": "Compare les sauvegardes par contenu, pour que les copies renommées restent reconnues. Supprime les doublons exacts avec possibilité d'annulation, signale les images endommagées et contrôle les informations de date de l'appareil photo. Les modifications sont réversibles et rien n'est envoyé.",
+      "audience": "Pour qui a une bibliothèque de photos encombrée de doublons et veut la nettoyer en toute sécurité.",
+      "features": [
+        "Vérifie les sauvegardes en comparant le contenu, pour que les copies renommées restent identifiées",
+        "Repère les fichiers identiques et déplace les surplus dans une quarantaine réversible",
+        "Analyse les images pour détecter les erreurs de décodage, en séparant les vrais dommages des formats non pris en charge",
+        "Contrôle la date de l'appareil et le fuseau horaire avant de modifier les horodatages des fichiers",
+        "Restaure une photo endommagée depuis une copie saine, sous forme de copie séparée et vérifiée"
+      ],
+      "limits": [
+        "Réécrire les métadonnées EXIF ni deviner les fuseaux horaires manquants",
+        "Réparer les données de pixels endommagées",
+        "Envoyer vos photos ailleurs pour les traiter"
+      ]
+    },
+    "fix-my-photo-dates": {
+      "tagline": "Réparez les dates de vos photos après des exports Takeout, des téléchargements cloud ou des déplacements de fichiers.",
+      "excerpt": "Quand les dates sont faussées après un export ou un déplacement, cet outil trouve l'écart, affiche la correction proposée et vous permet de l'annuler. Tout s'exécute sur votre PC Windows.",
+      "audience": "Pour qui constate des dates erronées sur ses photos après un export ou un déplacement.",
+      "features": [
+        "Diagnostique et corrige les horodatages après des exports Takeout, des exports iCloud ou des déplacements de fichiers",
+        "Affiche un aperçu avant toute modification et permet de revenir en arrière",
+        "Tout le traitement reste sur votre PC Windows"
+      ],
+      "limits": []
+    },
+    "renamefromfolder": {
+      "tagline": "Nommez les fichiers d'après le dossier qui les contient, avec un aperçu avant toute modification.",
+      "excerpt": "Ajoute le nom du dossier parent à chaque fichier d'une arborescence. Vous voyez chaque changement avant qu'il ne soit appliqué, et vous pouvez annuler tout le lot ensuite. Fonctionne sous Windows 10 et 11.",
+      "audience": "Pour qui range ses fichiers dans des dossiers bien nommés et veut que les noms de fichiers suivent.",
+      "features": [
+        "Ajoute à chaque fichier le nom de son dossier parent, sous-dossiers compris",
+        "Affiche chaque modification prévue avant d'en appliquer une",
+        "Annule un lot entier quand vous le souhaitez",
+        "Fonctionne sous Windows 10 et 11"
+      ],
+      "limits": []
+    },
+    "shelfsearch": {
+      "tagline": "Recherchez dans vos disques externes et partages réseau, même lorsqu'ils sont déconnectés.",
+      "excerpt": "ShelfSearch crée un index local des noms de fichiers et des chemins de dossiers de chaque disque que vous enregistrez. Quand un disque est hors ligne, vous voyez toujours où se trouve chaque fichier, pour savoir quel disque rebrancher.",
+      "audience": "Pour qui a des fichiers répartis sur plusieurs disques et doit les retrouver vite.",
+      "features": [
+        "Enregistre les disques externes et amovibles, les lecteurs réseau et les partages choisis",
+        "Recherche même lorsqu'un disque est déconnecté, et indique où il se trouve",
+        "Affiche l'état de connexion, la capacité et l'espace libre de chaque disque",
+        "Exporte les résultats de recherche en CSV",
+        "Conserve l'index sur votre propre PC"
+      ],
+      "limits": [
+        "Lire le contenu des fichiers ni générer des miniatures",
+        "Téléverser des fichiers, utiliser une synchronisation cloud ou exiger un compte en ligne"
+      ]
+    },
+    "what-was-i-working-on": {
+      "tagline": "Retrouvez le fichier que vous aviez ouvert hier, en quelques secondes, avec un seul raccourci.",
+      "excerpt": "Les fichiers et dossiers récents sont regroupés dans un historique consultable. Un aperçu rapide ou une chronologie complète vous permet de rouvrir le bon élément, et l'historique ne quitte jamais votre ordinateur.",
+      "audience": "Pour qui perd le fil de ce qu'il faisait et doit reprendre rapidement.",
+      "features": [
+        "Ouvre un aperçu rapide de votre travail récent d'un raccourci",
+        "Parcourt une chronologie complète : aujourd'hui, hier, les 7 et les 30 derniers jours",
+        "Filtre par nom, dossier, application ou extension",
+        "Rouvre fichiers et dossiers directement depuis la chronologie",
+        "Widget Windows 11 facultatif et rappels pour les applications compatibles",
+        "Analyse les dossiers de récupération connus des applications, uniquement quand vous le lancez",
+        "Historique et copies de récupération chiffrés"
+      ],
+      "limits": [
+        "Exiger un compte, un service cloud, de la télémétrie ou un accès à internet",
+        "Téléverser votre historique ou le contenu de vos documents"
+      ]
+    },
+    "tower-defence-riftward": {
+      "tagline": "Une campagne de tower defense aux sièges élémentaires : quatre routes, neuf familles de tours et soixante vagues.",
+      "excerpt": "Préparez vos défenses sur quatre routes, combinez neuf familles de tours et tenez bon face à soixante vagues de plus en plus dures dans une campagne solo.",
+      "audience": "Pour les amateurs de tower defense qui veulent tenir face à un siège élémentaire.",
+      "features": [
+        "Campagne solo centrée sur les tours élémentaires",
+        "Choisissez parmi quatre routes",
+        "Neuf familles de tours à construire et à combiner",
+        "Soixante vagues d'attaques de plus en plus intenses"
+      ],
+      "limits": []
+    },
+    "blobheads-voleyball-arcade": {
+      "tagline": "Un jeu de volley-ball arcade revisité pour Windows, contre l'ordinateur ou un ami.",
+      "excerpt": "Blobheads Voleyball Arcade est une version revisitée du volley-ball arcade. Affrontez l'ordinateur, partagez le clavier avec un ami en local à deux joueurs, ou disputez le tournoi en quatre manches Vert, Jaune, Orange et Rouge.",
+      "audience": "Pour qui aime les matchs rapides, contre l'ordinateur ou un ami sur le même clavier.",
+      "features": [
+        "Une version revisitée du volley-ball arcade",
+        "Matchs contre l'ordinateur ou contre un ami sur le même clavier",
+        "Tournoi en quatre manches Vert, Jaune, Orange et Rouge",
+        "Compatible clavier, souris et manette"
+      ],
+      "limits": []
+    },
+    "puzzlotski-puzzle": {
+      "tagline": "Un puzzle coulissant revisité avec ses propres niveaux, disponible sur le Microsoft Store.",
+      "excerpt": "Puzzlotski Puzzle est un puzzle à blocs coulissants revisité, avec un ensemble original de niveaux. C'est un téléchargement payant unique depuis le Microsoft Store.",
+      "audience": "Pour les amateurs de puzzles à blocs coulissants qui veulent des niveaux originaux.",
+      "features": [
+        "Un puzzle à blocs coulissants revisité",
+        "Un ensemble original de niveaux à résoudre"
+      ],
+      "limits": []
+    }
+  },
+  "privacy": {
+    "title": "Confidentialité d'abord | Nikatsam",
+    "description": "Pourquoi les applications Windows que je crée respectent la vie privée dès la conception : aucun suivi, aucun compte, fonctionnement hors ligne, et ce que cela signifie concrètement.",
+    "eyebrow": "Confidentialité d'abord",
+    "h1": "Des outils qui ne vous surveillent pas",
+    "lead": "Chaque outil que je crée repose sur une règle : il doit faire son travail sans collecter de données inutiles. Voici ce que cela signifie concrètement, et ce que cela ne couvre pas.",
+    "sections": [
+      { "h2": "Pourquoi c'est important", "paragraphs": [
+        "La plupart des logiciels Windows sont financés par les données qu'ils collectent. Le nom de vos fichiers, vos photos, vos reçus et vos habitudes peuvent finir dans des profils que vous n'avez jamais acceptés. Pour des outils qui touchent à des fichiers personnels, c'est un mauvais compromis.",
+        "La règle de base est donc simple. Si une fonction a besoin de vos données, elle doit s'exécuter sur votre PC. Si elle n'en a pas besoin, elle ne devrait pas les demander."
+      ]},
+      { "h2": "Ce que je vise dans chaque application", "list": [
+        "<strong>Aucun suivi.</strong> Pas d'identifiants publicitaires, pas de kit d'analyse et pas de télémétrie cachée dans les applications elles-mêmes.",
+        "<strong>Aucun compte.</strong> Vous ne devriez pas avoir à vous inscrire pour utiliser un outil.",
+        "<strong>Hors ligne d'abord.</strong> Le travail se fait sur votre appareil. Lorsqu'un téléchargement facultatif est nécessaire, comme un modèle d'IA, cela est indiqué dès le départ.",
+        "<strong>Des politiques en langage clair.</strong> Chaque application a sa propre politique de confidentialité. Lorsqu'elle existe, le site de l'application y renvoie."
+      ]},
+      { "h2": "À propos de ce site web", "paragraphs": [
+        "Ce site web est un ensemble de pages statiques hébergées sur GitHub Pages. Il ne fait que décrire les applications ; les engagements de confidentialité ci-dessus s'appliquent aux applications.",
+        "GitHub, en tant qu'hébergeur, conserve ses propres journaux serveur standard, selon sa propre politique de confidentialité. Je ne peux pas les désactiver et je n'y ai pas accès. Si vous voulez savoir ce qu'il enregistre, lisez la <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">déclaration de confidentialité de GitHub</a>."
+      ]},
+      { "h2": "Ce que cette page ne couvre pas", "paragraphs": [
+        "Chaque application est un produit distinct avec sa propre politique, et le Microsoft Store a ses propres conditions pour les téléchargements et les achats. Si un point de cette page entre en conflit avec la politique d'une application, c'est la politique de cette application qui s'applique."
+      ]},
+      { "h2": "Questions ou problèmes", "paragraphs": [
+        "Si une application ne correspond pas à ce qui est écrit ici, utilisez le lien « Signaler un bug » sur la carte du projet concerné. C'est le lieu public pour le signaler."
+      ]}
+    ]
+  }
+}

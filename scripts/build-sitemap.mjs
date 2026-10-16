@@ -9,6 +9,7 @@
 // URLs is simpler to audit than a sitemap index and avoids cross-host rules.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 import os from "node:os";
@@ -128,6 +129,18 @@ for (const p of config.projects) {
 }
 addCandidate(new URL("privacy-first/", config.siteUrl).href, gitDate("privacy-first/index.html"), "profile");
 
+// Translated profile pages (see scripts/build-i18n.mjs). Every version lists all the others as alternates.
+const i18nGroups = JSON.parse(readFileSync(new URL("data/i18n-groups.json", ROOT), "utf8"));
+const alternates = new Map();
+const pageDate = (url) => gitDate(url.replace(config.siteUrl, "") + "index.html");
+for (const group of i18nGroups) {
+  const members = Object.entries(group);
+  for (const [, url] of members) {
+    alternates.set(url, { members, xdefault: group.en });
+    addCandidate(url, pageDate(url), "translation");
+  }
+}
+
 for (const project of config.projects) {
   if (!project.pagesUrl) {
     report.projects.push({ name: project.name, status: "skipped", reason: "no GitHub Pages site" });
@@ -182,9 +195,16 @@ for (const { item, result } of checks) {
 report.included.sort((a, b) => a.url.localeCompare(b.url));
 const urlBlocks = report.included.map((r) => {
   const lastmod = r.lastmod ? `\n    <lastmod>${encodeXml(r.lastmod)}</lastmod>` : "";
-  return `  <url>\n    <loc>${encodeXml(r.url)}</loc>${lastmod}\n  </url>`;
+  const alt = alternates.get(r.url);
+  const links = alt
+    ? "\n" + [
+        ...alt.members.map(([lang, href]) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${encodeXml(href)}"/>`),
+        `    <xhtml:link rel="alternate" hreflang="x-default" href="${encodeXml(alt.xdefault)}"/>`,
+      ].join("\n")
+    : "";
+  return `  <url>\n    <loc>${encodeXml(r.url)}</loc>${lastmod}${links}\n  </url>`;
 });
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlBlocks.join("\n")}\n</urlset>\n`;
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlBlocks.join("\n")}\n</urlset>\n`;
 
 await writeFile(new URL("sitemap.xml", ROOT), sitemap, "utf8");
 

@@ -33,7 +33,9 @@ for (const file of htmlFiles) {
       if (!links.has(v)) links.set(v, new Set());
       links.get(v).add(file);
     } else if (!v.startsWith("#") && !v.startsWith("mailto:")) {
-      const target = new URL(v.replace(/[#?].*$/, ""), new URL(file, ROOT));
+      const clean = v.replace(/[#?].*$/, "");
+      // "/x/" means the site root, not the drive root
+      const target = clean.startsWith("/") ? new URL(clean.slice(1), ROOT) : new URL(clean, new URL(file, ROOT));
       const ok = await access(target).then(() => true, () => false);
       const isDir = v.endsWith("/");
       if (!ok && !(isDir && await access(new URL("index.html", target)).then(() => true, () => false))) {
@@ -63,7 +65,7 @@ for (const [url, files] of links) {
   // Links to this profile site are checked against the local build, since they only resolve after deploy
   // Only the profile's own pages (root and apps/) are local. Project websites are live sites.
   const ownPath = url.slice(cfg.siteUrl.length);
-  if (url.startsWith(cfg.siteUrl) && (ownPath === "" || ownPath.startsWith("apps/") || ownPath.startsWith("feed") || ownPath.startsWith("privacy-first"))) {
+  if (url.startsWith(cfg.siteUrl) && (ownPath === "" || ownPath.startsWith("apps/") || ownPath.startsWith("feed") || ownPath.startsWith("privacy-first") || /^(es|fr|de|pt)(\/|$)/.test(ownPath))) {
     const rel = url.slice(cfg.siteUrl.length).replace(/[#?].*$/, "");
     const local = new URL(rel.endsWith("/") || rel === "" ? `${rel}index.html` : rel, ROOT);
     const ok = await access(local).then(() => true, () => false);

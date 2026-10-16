@@ -1,0 +1,260 @@
+{
+  "lang": "de",
+  "name": "Deutsch",
+  "ui": {
+    "nav_about": "Über mich",
+    "nav_projects": "Projekte",
+    "nav_privacy": "Datenschutz",
+    "nav_bugs": "Fehler",
+    "eyebrow": "Einzelentwickler · Windows 11 · Offen für Ideen",
+    "title_before": "Ich entwickle kleine, nützliche Apps für ",
+    "title_grad": "Windows",
+    "title_after": " und die Werkzeuge drumherum.",
+    "lead": "Desktop-Werkzeuge, Produktseiten, Anleitungen und gelegentlich ein Spiel. Alles hier unten ist online, und vieles davon kann man kostenlos ausprobieren.",
+    "cta_explore": "Projekte ansehen",
+    "stat_projects": "Projekte",
+    "stat_sites": "Websites online",
+    "stat_apps": "Windows-Apps",
+    "strip": "Die Apps von Nikatsam benötigen: <strong>KEIN Tracking</strong>, <strong>KEIN Konto</strong> und funktionieren <strong>OFFLINE</strong>.",
+    "strip_link": "Warum das wichtig ist →",
+    "about_eyebrow": "Über mich",
+    "about_title": "Ein Entwickler, viele kleine Projekte",
+    "about_p1": "Ich bin Einzelentwickler und baue Windows-Werkzeuge und Spiele aus Freude an der Sache. Einige bringen ein kleines Nebeneinkommen, das das nächste Projekt finanziert.",
+    "about_p2": "Den Code, die Anleitungen und die Store-Einträge schreibe ich selbst. Wenn Ihnen etwas davon nützt, ist das das schönste Feedback.",
+    "about_points": [
+      "Windows-Desktopwerkzeuge, die ein lästiges Problem gut lösen.",
+      "Kleine Spiele, einfach aus Spaß gemacht.",
+      "Websites, Anleitungen und Datenschutzseiten zu jeder Veröffentlichung."
+    ],
+    "projects_eyebrow": "Projekte",
+    "projects_title": "Such dir eines aus und schau es dir an",
+    "projects_lead": "Jede Karte fasst ein Projekt zusammen. Klicke darauf, um die Details zu sehen.",
+    "filter_label": "Projekte filtern",
+    "filter_all": "Alle",
+    "filter_apps": "Windows-Apps",
+    "filter_games": "Spiele",
+    "sort_label": "Projekte sortieren",
+    "sort_az": "A–Z",
+    "sort_oldest": "Älteste zuerst",
+    "sort_newest": "Neueste zuerst",
+    "no_projects": "Für diesen Filter gibt es keine Projekte.",
+    "status_live": "Online",
+    "status_soon": "Demnächst im Store",
+    "status_repo": "Nur Quellcode",
+    "badge_app": "Windows-App",
+    "badge_game": "Spiel",
+    "btn_details": "Details",
+    "btn_visit": "Website besuchen",
+    "btn_store": "Microsoft Store",
+    "btn_report": "Fehler melden",
+    "btn_github": "Auf GitHub ansehen",
+    "dialog_who": "Für wen:",
+    "dialog_does": "Was es tut",
+    "dialog_doesnt": "Was es nicht tut",
+    "dialog_full": "Vollständige Seite",
+    "back_all": "← Zurück zu allen Projekten",
+    "footer_built": "Statische Website. Quellcode auf GitHub.",
+    "footer_disclaimer": "Nicht mit Microsoft verbunden. Produktnamen gehören ihren jeweiligen Eigentümern.",
+    "lang_label": "Sprache",
+    "home_title": "Nikatsam | Windows-Apps und Spiele von einem Einzelentwickler",
+    "home_desc": "Windows-Apps und Spiele von Nikatsam: Desktop-Werkzeuge, Produktseiten, Anleitungen und ein Tower-Defense-Spiel. Entdecken, herunterladen oder Fehler melden.",
+    "app_suffix": "Windows-App",
+    "game_suffix": "Windows-Spiel",
+    "crumb_home": "Startseite",
+    "app_back": "← Zurück zu allen Projekten",
+    "app_what": "Was es tut",
+    "app_doesnt": "Was es nicht tut",
+    "app_who": "Für wen:",
+    "app_store": "Im Microsoft Store erhalten",
+    "app_website": "Website besuchen",
+    "app_github": "Auf GitHub ansehen",
+    "app_bug": "Fehler melden",
+    "app_shots": "Screenshots"
+  },
+  "projects": {
+    "traypilot": {
+      "tagline": "Helligkeit, Audio und Netzwerkstatistiken, mit einem Klick aus dem Infobereich.",
+      "excerpt": "Ein kompaktes Fenster für Windows 11, das die alltäglichen Bedienelemente griffbereit hält: Helligkeit kompatibler Monitore anpassen, Wiedergabegeräte wählen, den Netzwerkdurchsatz live verfolgen und gängige Einstellungen ändern. Den Tastenkürzel zum Öffnen legen Sie selbst fest.",
+      "audience": "Für Windows-11-Nutzer, die Bildschirm, Audio und Netzwerk mit einem Klick erreichen möchten.",
+      "features": [
+        "Helligkeit kompatibler Monitore anpassen, mit einer Alternative für Laptop-Displays",
+        "Wiedergabegerät wechseln und Lautsprecher oder Mikrofone mit einem Klick stummschalten",
+        "Download- und Upload-Raten aktiver Netzwerkadapter einsehen",
+        "Verknüpfungen für Design, Nachtlicht, Energiemodus, Desktopsymbole und Bildschirmsperre",
+        "Eigenen Tastenkürzel zum Öffnen des Fensters festlegen"
+      ],
+      "limits": [
+        "Anmeldung, Cloud-Synchronisierung oder Nutzungsverfolgung voraussetzen",
+        "Das Mikrofon verwenden oder den Bildschirm aufzeichnen",
+        "Einen dauerhaft laufenden Hintergrunddienst betreiben"
+      ]
+    },
+    "clerkbrain": {
+      "tagline": "Lokale KI, die Rechnungen und Belege aus Ihrem Downloads-Ordner sortiert, ohne etwas hochzuladen.",
+      "excerpt": "ClerkBrain überwacht die Ordner, die Sie auswählen, liest neue Dokumente (PDF, Office-Dateien, Fotos und Scans), extrahiert die wichtigsten Angaben und lässt Sie darin suchen oder Fragen dazu stellen. Vorschläge für Namen und Ordner warten auf Ihre Freigabe, und die KI auf Ihrem Gerät sendet Ihre Dateien nie woanders hin.",
+      "audience": "Für alle, die stapelweise Rechnungen und Belege haben und sie ordnen möchten, ohne sie irgendwohin hochzuladen.",
+      "features": [
+        "Verarbeitet PDF, Office-Dateien, Fotos und Scans aus den von Ihnen gewählten Ordnern",
+        "Liest Anbieter, Datum, Gesamtbetrag und Rechnungsnummer aus",
+        "Sucht nach Stichwörtern oder nach Bedeutung, sobald die optionalen KI-Modelle installiert sind",
+        "Beantwortet Fragen in natürlicher Sprache und zeigt die Quelldokumente an",
+        "Schlägt Namen und Ordner vor, mit Rückgängig für jede Änderung",
+        "Markiert unsichere Erkennungen und findet Duplikate und Altlasten",
+        "Erstellt ein Jahrespaket für Ihren Steuerberater"
+      ],
+      "limits": [
+        "Ihre Dokumente irgendwohin senden. Die KI läuft auf Ihrem Gerät",
+        "Ohne Nachfrage etwas ablegen. Das automatische Ablegen bleibt aus, bis Sie es einschalten"
+      ]
+    },
+    "craft-fair-profit": {
+      "tagline": "Offline-Planung für Handwerksmärkte: Lager, Kosten, Verkäufe und Gewinnschwelle.",
+      "excerpt": "Berechnen Sie, ob sich ein Handwerksmarkt lohnt, bevor Sie buchen. Erfassen Sie Lager, Ausgaben und Verkäufe für jede Veranstaltung und sehen Sie anschließend nach, was Sie mitnehmen sollten und was der Tag tatsächlich eingebracht hat.",
+      "audience": "Für Handwerker, die einen Markt planen und wissen möchten, ob er sich rechnet.",
+      "features": [
+        "Lagerbestand, Kosten und Verkäufe jeder Veranstaltung zusammen erfassen",
+        "Die Gewinnschwelle schätzen, bevor Sie einen Stand buchen",
+        "Checklisten, was mitzunehmen und was zu notieren ist",
+        "Jede Veranstaltung im Nachhinein durchgehen, um zu sehen, was funktioniert hat"
+      ],
+      "limits": []
+    },
+    "fix-my-photo-library": {
+      "tagline": "Fotosicherungen prüfen, Duplikate finden und den Zustand von Bildern kontrollieren, alles auf Ihrem PC.",
+      "excerpt": "Vergleicht Sicherungen anhand des Inhalts, sodass umbenannte Kopien weiterhin erkannt werden. Entfernt exakte Duplikate mit Rückgängig-Option, markiert beschädigte Bilder und prüft die Datumsinformationen der Kamera. Alle Änderungen sind umkehrbar, und nichts wird hochgeladen.",
+      "audience": "Für alle mit einer unübersichtlichen Fotomediathek voller Duplikate, die sie sicher aufräumen möchten.",
+      "features": [
+        "Prüft Sicherungen anhand des Inhalts, sodass umbenannte Kopien weiterhin übereinstimmen",
+        "Findet identische Dateien und verschiebt die überzähligen in eine umkehrbare Quarantäne",
+        "Prüft Bilder auf Dekodierfehler und trennt echte Schäden von nicht unterstützten Formaten",
+        "Prüft Kameradatum und Zeitzone, bevor Dateizeitstempel geändert werden",
+        "Stellt ein beschädigtes Foto aus einer intakten Sicherung als getrennte, geprüfte Kopie wieder her"
+      ],
+      "limits": [
+        "EXIF-Metadaten umschreiben oder fehlende Zeitzonen erraten",
+        "Beschädigte Bilddaten reparieren",
+        "Ihre Fotos zur Verarbeitung irgendwohin senden"
+      ]
+    },
+    "fix-my-photo-dates": {
+      "tagline": "Repariert Fotodaten nach Takeout-Exporten, Cloud-Downloads oder verschobenen Dateien.",
+      "excerpt": "Wenn Daten nach einem Export oder Verschieben falsch sind, findet dieses Werkzeug die Abweichung, zeigt die vorgeschlagene Korrektur und lässt Sie sie rückgängig machen. Alles läuft auf Ihrem Windows-PC.",
+      "audience": "Für alle, deren Fotos nach einem Export oder Verschieben falsche Daten haben.",
+      "features": [
+        "Diagnostiziert und korrigiert Zeitstempel nach Takeout-Exporten, iCloud-Exporten oder verschobenen Dateien",
+        "Zeigt vor jeder Änderung eine Vorschau und erlaubt das Zurücksetzen",
+        "Die gesamte Verarbeitung bleibt auf Ihrem Windows-PC"
+      ],
+      "limits": []
+    },
+    "renamefromfolder": {
+      "tagline": "Benennt Dateien nach dem Ordner, in dem sie liegen, mit Vorschau vor jeder Änderung.",
+      "excerpt": "Stellt jeder Datei in einem Ordnerbaum den Namen ihres übergeordneten Ordners voran. Sie sehen jede Änderung, bevor sie stattfindet, und können danach den gesamten Stapel zurücknehmen. Funktioniert unter Windows 10 und 11.",
+      "audience": "Für alle, die ihre Dateien in gut benannten Ordnern ablegen und möchten, dass die Dateinamen dazu passen.",
+      "features": [
+        "Stellt jeder Datei den Namen des übergeordneten Ordners voran, auch in Unterordnern",
+        "Zeigt jede geplante Umbenennung, bevor etwas angewendet wird",
+        "Macht einen ganzen Stapel bei Bedarf rückgängig",
+        "Funktioniert unter Windows 10 und 11"
+      ],
+      "limits": []
+    },
+    "shelfsearch": {
+      "tagline": "Durchsucht externe Laufwerke und Netzwerkfreigaben, auch wenn sie getrennt sind.",
+      "excerpt": "ShelfSearch erstellt einen lokalen Index der Dateinamen und Ordnerpfade jedes registrierten Laufwerks. Ist ein Laufwerk nicht angeschlossen, sehen Sie trotzdem, wo eine Datei liegt, und wissen, welches Laufwerk Sie wieder anschließen müssen.",
+      "audience": "Für alle, deren Dateien auf mehrere Laufwerke verteilt sind und die sie schnell finden müssen.",
+      "features": [
+        "Registriert externe und Wechseldatenträger, zugeordnete Laufwerke und ausgewählte Netzwerkfreigaben",
+        "Durchsucht Dateien auch bei getrenntem Laufwerk und zeigt, wo sie liegen",
+        "Zeigt Verbindungsstatus, Kapazität und freien Speicher jedes Laufwerks",
+        "Exportiert Suchergebnisse als CSV",
+        "Speichert den Index auf Ihrem eigenen PC"
+      ],
+      "limits": [
+        "Dateiinhalte lesen oder Vorschaubilder erzeugen",
+        "Dateien hochladen, eine Cloud-Synchronisierung nutzen oder ein Online-Konto voraussetzen"
+      ]
+    },
+    "what-was-i-working-on": {
+      "tagline": "Finden Sie die Datei, an der Sie gestern gearbeitet haben, in Sekunden, mit einer einzigen Tastenkombination.",
+      "excerpt": "Zuletzt verwendete Dateien und Ordner werden in einem durchsuchbaren Verlauf gesammelt. Eine Schnellansicht oder eine vollständige Zeitleiste hilft Ihnen, das richtige Element wieder zu öffnen, und der Verlauf verlässt Ihren Rechner nie.",
+      "audience": "Für alle, die den Faden verlieren und schnell wieder einsteigen müssen.",
+      "features": [
+        "Öffnet per Tastenkombination eine Schnellansicht Ihrer letzten Arbeit",
+        "Durchblättert eine vollständige Zeitleiste: heute, gestern, die letzten 7 und 30 Tage",
+        "Filtert nach Name, Ordner, Anwendung oder Dateiendung",
+        "Öffnet Dateien und Ordner direkt aus dem Verlauf",
+        "Optionales Windows-11-Widget und Erinnerungen für unterstützte Anwendungen",
+        "Durchsucht bekannte Wiederherstellungsordner von Anwendungen, nur wenn Sie es starten",
+        "Verlauf und Wiederherstellungskopien sind verschlüsselt"
+      ],
+      "limits": [
+        "Ein Konto, einen Cloud-Dienst, Telemetrie oder eine Internetverbindung voraussetzen",
+        "Ihren Verlauf oder Dokumentinhalte hochladen"
+      ]
+    },
+    "tower-defence-riftward": {
+      "tagline": "Eine Tower-Defense-Kampagne mit elementaren Belagerungen: vier Routen, neun Turmfamilien und sechzig Wellen.",
+      "excerpt": "Planen Sie Ihre Verteidigung auf vier Routen, kombinieren Sie neun Turmfamilien und halten Sie sechzig immer härter werdenden Wellen stand, in einer Einzelspieler-Kampagne.",
+      "audience": "Für Tower-Defense-Fans, die einer elementaren Belagerung standhalten wollen.",
+      "features": [
+        "Einzelspieler-Kampagne rund um elementare Türme",
+        "Wählen Sie zwischen vier Routen",
+        "Neun Turmfamilien zum Bauen und Kombinieren",
+        "Sechzig Angriffswellen, die immer stärker werden"
+      ],
+      "limits": []
+    },
+    "blobheads-voleyball-arcade": {
+      "tagline": "Ein neu interpretiertes Arcade-Volleyball für Windows, gegen den Computer oder einen Freund.",
+      "excerpt": "Blobheads Voleyball Arcade ist eine neu interpretierte Version von Arcade-Volleyball. Spielen Sie gegen den Computer, teilen Sie sich im lokalen Zwei-Spieler-Modus die Tastatur mit einem Freund oder kämpfen Sie sich durch das vierrundige Turnier Grün, Gelb, Orange und Rot.",
+      "audience": "Für alle, die schnelle Duelle mögen, gegen den Computer oder einen Freund an derselben Tastatur.",
+      "features": [
+        "Eine neu interpretierte Version von Arcade-Volleyball",
+        "Partien gegen den Computer oder gegen einen Freund an derselben Tastatur",
+        "Vierrundiges Turnier Grün, Gelb, Orange und Rot",
+        "Unterstützt Tastatur, Maus und Controller"
+      ],
+      "limits": []
+    },
+    "puzzlotski-puzzle": {
+      "tagline": "Ein neu interpretiertes Schiebepuzzle mit eigenen Leveln, erhältlich im Microsoft Store.",
+      "excerpt": "Puzzlotski Puzzle ist ein neu interpretiertes Schiebepuzzle mit einem eigenen Satz an Leveln. Es ist ein einmalig kostenpflichtiger Download aus dem Microsoft Store.",
+      "audience": "Für Fans von Schiebepuzzles, die originelle Level suchen.",
+      "features": [
+        "Ein neu interpretiertes Schiebepuzzle",
+        "Ein eigener Satz an Leveln zum Durchspielen"
+      ],
+      "limits": []
+    }
+  },
+  "privacy": {
+    "title": "Datenschutz zuerst | Nikatsam",
+    "description": "Warum die Windows-Apps, die ich entwickle, von Grund auf datenschutzfreundlich sind: kein Tracking, keine Konten, offline nutzbar, und was das konkret bedeutet.",
+    "eyebrow": "Datenschutz zuerst",
+    "h1": "Werkzeuge, die Sie nicht beobachten",
+    "lead": "Jedes Werkzeug, das ich baue, folgt einer Regel: Es soll seine Aufgabe erledigen, ohne Daten zu sammeln, die es nicht braucht. Hier steht, was das konkret bedeutet und was es nicht abdeckt.",
+    "sections": [
+      { "h2": "Warum das wichtig ist", "paragraphs": [
+        "Die meiste Windows-Software wird durch die Daten finanziert, die sie sammelt. Ihre Dateinamen, Fotos, Belege und Gewohnheiten können in Profilen landen, denen Sie nie zugestimmt haben. Bei Werkzeugen, die persönliche Dateien anfassen, ist das der falsche Handel.",
+        "Deshalb ist die Grundregel einfach. Wenn eine Funktion Ihre Daten braucht, sollte sie auf Ihrem PC laufen. Wenn sie sie nicht braucht, sollte sie gar nicht danach fragen."
+      ]},
+      { "h2": "Was ich in jeder App anstrebe", "list": [
+        "<strong>Kein Tracking.</strong> Keine Werbe-IDs, keine Analyse-SDKs und keine versteckte Telemetrie in den Apps selbst.",
+        "<strong>Kein Konto.</strong> Sie sollten sich nicht anmelden müssen, um ein Werkzeug zu nutzen.",
+        "<strong>Offline zuerst.</strong> Die Arbeit findet auf Ihrem Gerät statt. Wenn ein optionaler Download nötig ist, etwa ein KI-Modell, wird das von Anfang an angegeben.",
+        "<strong>Verständliche Richtlinien.</strong> Jede App hat ihre eigene Datenschutzerklärung. Wo es eine gibt, verlinkt die Website der App darauf."
+      ]},
+      { "h2": "Über diese Website", "paragraphs": [
+        "Diese Website besteht aus statischen Seiten, die auf GitHub Pages gehostet werden. Sie beschreibt nur die Apps; die oben genannten Datenschutzversprechen gelten für die Apps.",
+        "GitHub führt als Hosting-Anbieter eigene Standard-Serverprotokolle nach seiner eigenen Datenschutzrichtlinie. Ich kann diese nicht abschalten und habe keinen Zugriff darauf. Wenn Sie wissen möchten, was protokolliert wird, lesen Sie die <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung von GitHub</a>."
+      ]},
+      { "h2": "Was diese Seite nicht abdeckt", "paragraphs": [
+        "Jede App ist ein eigenes Produkt mit eigener Richtlinie, und der Microsoft Store hat eigene Bedingungen für Downloads und Käufe. Wenn etwas hier der Richtlinie einer App widerspricht, gilt die Richtlinie dieser App."
+      ]},
+      { "h2": "Fragen oder Probleme", "paragraphs": [
+        "Wenn eine App nicht mit dem übereinstimmt, was hier steht, nutzen Sie den Link „Fehler melden“ auf der Karte des jeweiligen Projekts. Dort ist der öffentliche Ort dafür."
+      ]}
+    ]
+  }
+}
