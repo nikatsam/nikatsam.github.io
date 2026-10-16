@@ -17,6 +17,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, so page dates come from git
       - uses: actions/setup-node@v4
         with:
           node-version: 22
