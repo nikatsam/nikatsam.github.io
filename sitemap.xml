@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://nikatsam.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/blobheads-voleyball-arcade/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/clerkbrain/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/craft-fair-profit/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/fix-my-photo-dates/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/fix-my-photo-library/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/puzzlotski-puzzle/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/renamefromfolder/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/shelfsearch/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/tower-defence-riftward/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/traypilot/</loc>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/apps/what-was-i-working-on/</loc>
+  </url>
+  <url>
     <loc>https://nikatsam.github.io/FixMyPhotoDates-Website/</loc>
     <lastmod>2026-10-02</lastmod>
   </url>
@@ -22,6 +58,7 @@
   </url>
   <url>
     <loc>https://nikatsam.github.io/FixMyPhotoDates-Website/privacy.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/FixMyPhotoDates-Website/product.html</loc>
@@ -29,33 +66,38 @@
   </url>
   <url>
     <loc>https://nikatsam.github.io/FixMyPhotoDates-Website/terms.html</loc>
+    <lastmod>2026-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/privacy-first/</loc>
   </url>
   <url>
     <loc>https://nikatsam.github.io/ShelfSearch-Website/</loc>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/find-recent-files-windows/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/get-back-to-work-faster/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/what-to-know-about-file-recovery/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/windows-file-history-privacy/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_RenameFromFolder_Website/</loc>
@@ -99,33 +141,43 @@
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/faq.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/ask.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/cleanup.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/due-soon.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/organize.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/receipts-privacy.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TidyClerk_Website/privacy.html</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TrayPilot_Website/</loc>
+    <lastmod>2026-10-03</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WIN_APP_TrayPilot_Website/help.html</loc>
+    <lastmod>2026-10-03</lastmod>
   </url>
   <url>
     <loc>https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/</loc>
