@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    {
+      "repo": "WIN_WIDGET_System_Monitor",
+      "slug": "system-monitor-widget",
+      "reason": "Excluded for now at the owner's request. Repo is public, so discovery would otherwise add it."
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "owner": "nikatsam",
+  "siteUrl": "https://nikatsam.github.io/",
+  "projects": [
+    {
+      "name": "TrayPilot",
+      "slug": "traypilot",
+      "category": "app",
+      "status": "live",
+      "site": "https://nikatsam.github.io/WIN_APP_TrayPilot_Website/",
+      "store": "9N4VVRMPPK6W",
+      "github": null,
+      "bugRepo": "WIN_APP_TrayPilot_Website",
+      "repo": "WIN_APP_TrayPilot_Website",
+      "pagesUrl": "https://nikatsam.github.io/WIN_APP_TrayPilot_Website/",
+      "firstCommit": "2026-09-23T22:36:50Z",
+      "audience": "For Windows 11 users who want display, audio and network controls one click away in the system tray.",
+      "tagline": "Monitor brightness, audio switching and network stats, one click from the tray.",
+      "excerpt": "A compact Windows 11 flyout that keeps everyday controls close: adjust supported monitors, pick playback devices, watch live throughput and tweak common settings. You choose the shortcut that opens it.",
+      "features": [
+        "Adjust brightness on supported monitors, with a laptop-panel fallback",
+        "Switch playback devices and mute speakers or microphones in one click",
+        "See download and upload speeds from active network adapters",
+        "Shortcuts for theme, Night Light, power mode, desktop icons and screen lock",
+        "Pick your own keyboard shortcut to bring up the panel"
+      ],
+      "limits": [
+        "Require sign-in, cloud sync or usage tracking",
+        "Use the microphone or capture your screen",
+        "Run an always-on background service"
+      ]
+    },
+    {
+      "name": "ClerkBrain",
+      "slug": "clerkbrain",
+      "category": "app",
+      "status": "live",
+      "site": "https://nikatsam.github.io/WIN_APP_TidyClerk_Website/",
+      "store": "9NKCN2RDXZ55",
+      "github": null,
+      "bugRepo": "WIN_APP_TidyClerk_Website",
+      "repo": "WIN_APP_TidyClerk_Website",
+      "pagesUrl": "https://nikatsam.github.io/WIN_APP_TidyClerk_Website/",
+      "firstCommit": "2026-10-14T06:17:28Z",
+      "audience": "For anyone with piles of invoices and receipts who wants them sorted without uploading them anywhere.",
+      "tagline": "Local AI that sorts receipts and invoices in your Downloads folder, without uploads.",
+      "excerpt": "ClerkBrain keeps an eye on the folders you pick, reads incoming paperwork (PDFs, Office files, photos and scans), pulls out the key figures and lets you search or ask questions about it. Naming and filing suggestions wait for your approval, and the on-device AI never sends your files elsewhere.",
+      "features": [
+        "Works through PDFs, Office files, photos and scans in the folders you select",
+        "Reads out supplier, date, total and invoice number",
+        "Finds files by keyword, or by meaning once the optional AI models are installed",
+        "Answers plain-language questions and points to the source documents",
+        "Suggests names and folders, with undo on every change",
+        "Marks uncertain readings and flags duplicates and leftovers",
+        "Builds a year-end pack for your accountant"
+      ],
+      "limits": [
+        "Send your documents anywhere. The AI runs on your device",
+        "File anything without asking. Auto-filing stays off until you switch it on"
+      ]
+    },
+    {
+      "name": "Craft Fair Profit",
+      "slug": "craft-fair-profit",
+      "category": "app",
+      "status": "soon",
+      "site": "https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/",
+      "store": null,
+      "github": null,
+      "bugRepo": "WINAPP_CraftFairProfit_WEBSITE",
+      "repo": "WINAPP_CraftFairProfit_WEBSITE",
+      "pagesUrl": "https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/",
+      "firstCommit": "2026-10-15T18:42:28Z",
+      "audience": "For craft sellers planning a fair who want to know whether it will be worth the cost.",
+      "tagline": "Offline planning for craft fairs: stock, costs, takings and break-even at a glance.",
+      "excerpt": "Work out whether a craft fair is worth the effort before you book. Track stock, expenses and sales for each event, then review what to bring and what the day actually earned.",
+      "features": [
+        "Keep stock counts, costs and sales together for each event",
+        "Estimate break-even before you commit to a stall",
+        "Checklists for what to pack and what to record",
+        "Review each event afterwards to see what paid off"
+      ],
+      "limits": []
+    },
+    {
+      "name": "Fix My Photo Library",
+      "slug": "fix-my-photo-library",
+      "category": "app",
+      "status": "live",
+      "site": "https://nikatsam.github.io/WINAPP_Fix_My_Photo_Library_Website/",
+      "store": "9N0KLW537VH8",
+      "github": null,
+      "bugRepo": "WINAPP_Fix_My_Photo_Library_Website",
+      "repo": "WINAPP_Fix_My_Photo_Library_Website",
+      "pagesUrl": "https://nikatsam.github.io/WINAPP_Fix_My_Photo_Library_Website/",
+      "firstCommit": "2026-10-14T11:33:03Z",
+      "audience": "For anyone with a messy photo library full of duplicates who wants to clean it up safely.",
+      "tagline": "Confirm your photo backups, clear duplicates and check image health, all on your PC.",
+      "excerpt": "Compare backups by content so renamed copies still count, remove exact duplicates with an undo option, flag damaged images and review camera date information. Changes are reversible and nothing is uploaded.",
+      "features": [
+        "Confirms backups by comparing contents, so renamed copies still match",
+        "Finds identical files and moves the extras into a reversible quarantine",
+        "Scans images for decoding faults, separating real damage from unsupported formats",
+        "Checks camera date and timezone details before touching timestamps",
+        "Restores a damaged photo from a healthy backup as a separate, verified copy"
+      ],
+      "limits": [
+        "Rewrite EXIF metadata or invent missing timezone offsets",
+        "Repair damaged pixel data",
+        "Send your photos anywhere for processing"
+      ]
+    },
+    {
+      "name": "Fix My Photo Dates",
+      "slug": "fix-my-photo-dates",
+      "category": "app",
+      "status": "live",
+      "site": "https://nikatsam.github.io/FixMyPhotoDates-Website/",
+      "store": "9NFKQ1MV9399",
+      "github": null,
+      "bugRepo": "FixMyPhotoDates-Website",
+      "repo": "FixMyPhotoDates-Website",
+      "pagesUrl": "https://nikatsam.github.io/FixMyPhotoDates-Website/",
+      "firstCommit": "2026-10-02T17:03:09Z",
+      "audience": "For people whose photo dates went wrong after a Google Takeout export or moving files around.",
+      "tagline": "Repair photo timestamps lost during Takeout exports, cloud downloads or file moves.",
+      "excerpt": "When dates go wrong after an export or a move, this tool finds the mismatch, shows the proposed fix and lets you roll it back. Everything runs on your Windows PC.",
+      "features": [
+        "Diagnoses and fixes timestamps after Takeout exports, iCloud downloads and file moves",
+        "Shows a preview before any change and lets you roll it back",
+        "All processing stays on your Windows PC"
+      ],
+      "limits": []
+    },
+    {
+      "name": "RenameFromFolder",
+      "slug": "renamefromfolder",
+      "category": "app",
+      "status": "live",
+      "site": "https://nikatsam.github.io/WIN_APP_RenameFromFolder_Website/",
+      "store": "9N53S9L48P2C",
+      "github": null,
+      "bugRepo": "WIN_APP_RenameFromFolder_Website",
+      "repo": "WIN_APP_RenameFromFolder_Website",
+      "pagesUrl": "https://nikatsam.github.io/WIN_APP_RenameFromFolder_Website/",
+      "firstCommit": "2026-10-13T20:32:00Z",
+      "audience": "For anyone who keeps files in well-named folders and wants the filenames to match.",
+      "tagline": "Name files after the folders they sit in, with a preview before anything changes.",
+      "excerpt": "Prefix every file in a folder tree with its parent folder's name. You see each change first, and you can reverse the whole batch afterwards. Works on Windows 10 and 11.",
+      "features": [
+        "Prefixes each file with the name of its parent folder, including subfolders",
+        "Shows every planned rename before anything is applied",
+        "Reverses a whole batch whenever you need to",
+        "Runs on Windows 10 and 11"
+      ],
+      "limits": []
+    },
+    {
+      "name": "ShelfSearch",
+      "slug": "shelfsearch",
+      "category": "app",
+      "status": "live",
+      "site": "https://nikatsam.github.io/ShelfSearch-Website/",
+      "store": "9MXCMHJT0BZD",
+      "github": null,
+      "bugRepo": "ShelfSearch-Website",
+      "repo": "ShelfSearch-Website",
+      "pagesUrl": "https://nikatsam.github.io/ShelfSearch-Website/",
+      "firstCommit": "2026-10-02T16:57:28Z",
+      "audience": "For people whose files are spread across several drives and who need to find things fast.",
+      "tagline": "Search your external drives and network shares, even while they're unplugged.",
+      "excerpt": "ShelfSearch builds a local index of filenames and folder paths from each drive you register. When a drive is offline you still see where a file lives, so you know which disk to plug back in.",
+      "features": [
+        "Registers external and removable drives, mapped drives and chosen network shares",
+        "Lets you search while a drive is disconnected, and shows where it lives",
+        "Displays each drive's connection status, capacity and free space",
+        "Exports search results to a CSV file",
+        "Keeps the index on your own PC"
+      ],
+      "limits": [
+        "Open or inspect the files on your drives",
+        "Send anything off the machine, or depend on a cloud service to work"
+      ]
+    },
+    {
+      "name": "What Was I Working On?",
+      "slug": "what-was-i-working-on",
+      "category": "app",
+      "status": "live",
+      "site": "https://nikatsam.github.io/WhatWasIWorkingOn-Website/",
+      "store": "9P963MWV3JR5",
+      "github": null,
+      "bugRepo": "WhatWasIWorkingOn-Website",
+      "repo": "WhatWasIWorkingOn-Website",
+      "pagesUrl": "https://nikatsam.github.io/WhatWasIWorkingOn-Website/",
+      "firstCommit": "2026-10-01T08:37:00Z",
+      "audience": "For anyone who loses track of what they were working on and needs to get back to it quickly.",
+      "tagline": "Get back to the file you had open yesterday, found in seconds from a single shortcut.",
+      "excerpt": "Recent files and folders are collected into a searchable history. A quick overlay or a full timeline lets you reopen the right item, and the record never leaves your machine.",
+      "features": [
+        "Opens a quick overlay of recent work from a shortcut",
+        "Browses a full timeline: today, yesterday, past 7 days and past 30 days",
+        "Filters by name, folder, app or file extension",
+        "Reopens files and folders straight from the timeline",
+        "Optional Windows 11 widget and reminders for supported apps",
+        "Scans known app recovery folders, only when you start it",
+        "Stores history and recovery copies encrypted"
+      ],
+      "limits": [
+        "Need an account, cloud service, telemetry or internet access",
+        "Upload your history or document contents"
+      ]
+    },
+    {
+      "name": "Tower Defence Riftward",
+      "slug": "tower-defence-riftward",
+      "category": "game",
+      "status": "soon",
+      "site": "https://nikatsam.github.io/WINGAME_TD_RIFTWARD_WEBSITE/",
+      "store": null,
+      "github": null,
+      "bugRepo": "WINGAME_TD_RIFTWARD_WEBSITE",
+      "repo": "WINGAME_TD_RIFTWARD_WEBSITE",
+      "pagesUrl": "https://nikatsam.github.io/WINGAME_TD_RIFTWARD_WEBSITE/",
+      "firstCommit": "2026-10-16T10:42:28Z",
+      "audience": "For tower defence fans who want to hold the line against an elemental siege.",
+      "tagline": "A tower defence campaign of elemental sieges across four routes and sixty waves.",
+      "excerpt": "Plan your defences across four routes, combine nine tower families and hold out through sixty escalating waves in a single-player campaign.",
+      "features": [
+        "A single-player campaign built around elemental towers",
+        "Choose from four routes",
+        "Nine families of towers to build and combine",
+        "Sixty waves of escalating attacks"
+      ],
+      "limits": []
+    },
+    {
+      "name": "Blobheads Voleyball Arcade",
+      "slug": "blobheads-voleyball-arcade",
+      "category": "game",
+      "status": "live",
+      "site": null,
+      "store": "9P8DGSGKNTNL",
+      "github": null,
+      "bugRepo": null,
+      "repo": "WIN_GAME_Blobheads_Voleyball_Arcade",
+      "pagesUrl": null,
+      "firstCommit": "2026-10-03T19:17:08Z",
+      "audience": "For anyone who enjoys quick head-to-head arcade games, against the computer or a friend on one keyboard.",
+      "tagline": "A reimagined arcade volleyball game for Windows, played against the computer or a friend.",
+      "excerpt": "Blobheads Voleyball Arcade is a reimagined take on arcade volleyball. Rally against the computer, share a keyboard with a friend in local two-player, or work through the four-round Green, Yellow, Orange and Red tournament.",
+      "features": [
+        "A reimagined take on arcade volleyball",
+        "Matches against the computer, or a friend on the same keyboard",
+        "A four-round Green, Yellow, Orange and Red tournament",
+        "Keyboard, mouse and controller support"
+      ],
+      "limits": []
+    },
+    {
+      "name": "Puzzlotski Puzzle",
+      "slug": "puzzlotski-puzzle",
+      "category": "game",
+      "status": "live",
+      "site": null,
+      "store": "9MX6677H91L9",
+      "github": null,
+      "bugRepo": null,
+      "repo": "WIN_GAME_Puzzlotski",
+      "pagesUrl": null,
+      "firstCommit": "2026-10-03T19:55:30Z",
+      "audience": "For sliding-block puzzle fans who want an original set of levels to work through.",
+      "tagline": "A reimagined sliding-block puzzle with its own original levels, on the Microsoft Store.",
+      "excerpt": "Puzzlotski Puzzle is a reimagined sliding-block puzzle with an original set of levels. It's a one-time paid download from the Microsoft Store.",
+      "features": [
+        "A reimagined sliding-block puzzle",
+        "An original set of levels to work through"
+      ],
+      "limits": []
+    }
+  ]
+}

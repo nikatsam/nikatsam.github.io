@@ -1,0 +1,6 @@
+# robots.txt only applies at the host root. Because all project sites live under
+# nikatsam.github.io/<repo>/, this file governs the whole host, not just this page.
+User-agent: *
+Allow: /
+
+Sitemap: https://nikatsam.github.io/sitemap.xml

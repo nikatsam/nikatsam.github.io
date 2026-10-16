@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="stone" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#dfe4ff"/>
+      <stop offset="0.35" stop-color="#8c96c8"/>
+      <stop offset="0.8" stop-color="#3d4a80"/>
+      <stop offset="1" stop-color="#1b2040"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f0f3ff"/>
+      <stop offset="0.25" stop-color="#a9b3e0"/>
+      <stop offset="1" stop-color="#2e3670"/>
+    </linearGradient>
+    <linearGradient id="step" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d5dcff"/>
+      <stop offset="0.12" stop-color="#7480b8"/>
+      <stop offset="1" stop-color="#252c5a"/>
+    </linearGradient>
+    <linearGradient id="farHill" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#6b76aa"/>
+      <stop offset="1" stop-color="#1b2040"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#4a5590"/>
+      <stop offset="1" stop-color="#11152a"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.4" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Light falling on the temple -->
+  <ellipse cx="800" cy="420" rx="760" ry="420" fill="url(#light)"/>
+
+  <!-- Far hills: lighter and softer, so they sit behind the main hill -->
+  <path fill="url(#farHill)" opacity="0.6" filter="url(#soft)" d="M-40 640 C140 560 300 600 420 590 C560 580 640 520 800 540 C960 560 1080 600 1200 585 C1340 570 1480 610 1640 650 L1640 900 L-40 900 Z"/>
+
+  <!-- Main Acropolis hill -->
+  <path fill="url(#hill)" d="M0 760 C180 700 330 650 470 668 L1130 668 C1280 650 1420 700 1600 760 L1600 900 L0 900 Z"/>
+
+  <!-- Three-tier stylobate (base steps), each with a lit top edge -->
+  <rect x="440" y="650" width="720" height="22" fill="url(#step)"/>
+  <rect x="440" y="650" width="720" height="4" fill="#ffffff" opacity="0.35"/>
+  <rect x="452" y="634" width="696" height="18" fill="url(#step)"/>
+  <rect x="452" y="634" width="696" height="3" fill="#ffffff" opacity="0.35"/>
+  <rect x="470" y="612" width="660" height="24" fill="url(#step)"/>
+  <rect x="470" y="612" width="660" height="3" fill="#ffffff" opacity="0.4"/>
+
+  <!-- Cast shadow of the temple on the ground -->
+  <path fill="#000" opacity="0.45" filter="url(#soft)" d="M430 672 L1170 672 L1230 700 L380 700 Z"/>
+
+  <!-- Columns: lit left, shaded right, with fluting lines and capitals -->
+  <g id="columns">
+    <rect x="500" y="368" width="26" height="236" fill="url(#stone)"/>
+    <rect x="580" y="368" width="26" height="236" fill="url(#stone)"/>
+    <rect x="660" y="368" width="26" height="236" fill="url(#stone)"/>
+    <rect x="740" y="368" width="26" height="236" fill="url(#stone)"/>
+    <rect x="820" y="368" width="26" height="236" fill="url(#stone)"/>
+    <rect x="900" y="368" width="26" height="236" fill="url(#stone)"/>
+    <rect x="980" y="368" width="26" height="236" fill="url(#stone)"/>
+    <rect x="1060" y="368" width="26" height="236" fill="url(#stone)"/>
+  </g>
+  <g fill="#1a2050" opacity="0.25">
+    <rect x="506" y="368" width="1" height="236"/><rect x="512" y="368" width="1" height="236"/><rect x="518" y="368" width="1" height="236"/>
+    <rect x="586" y="368" width="1" height="236"/><rect x="592" y="368" width="1" height="236"/><rect x="598" y="368" width="1" height="236"/>
+    <rect x="666" y="368" width="1" height="236"/><rect x="672" y="368" width="1" height="236"/><rect x="678" y="368" width="1" height="236"/>
+    <rect x="746" y="368" width="1" height="236"/><rect x="752" y="368" width="1" height="236"/><rect x="758" y="368" width="1" height="236"/>
+    <rect x="826" y="368" width="1" height="236"/><rect x="832" y="368" width="1" height="236"/><rect x="838" y="368" width="1" height="236"/>
+    <rect x="906" y="368" width="1" height="236"/><rect x="912" y="368" width="1" height="236"/><rect x="918" y="368" width="1" height="236"/>
+    <rect x="986" y="368" width="1" height="236"/><rect x="992" y="368" width="1" height="236"/><rect x="998" y="368" width="1" height="236"/>
+    <rect x="1066" y="368" width="1" height="236"/><rect x="1072" y="368" width="1" height="236"/><rect x="1078" y="368" width="1" height="236"/>
+  </g>
+  <g fill="url(#beam)">
+    <rect x="494" y="358" width="38" height="11"/>
+    <rect x="574" y="358" width="38" height="11"/>
+    <rect x="654" y="358" width="38" height="11"/>
+    <rect x="734" y="358" width="38" height="11"/>
+    <rect x="814" y="358" width="38" height="11"/>
+    <rect x="894" y="358" width="38" height="11"/>
+    <rect x="974" y="358" width="38" height="11"/>
+    <rect x="1054" y="358" width="38" height="11"/>
+  </g>
+
+  <!-- Entablature, frieze shadow line, and pediment -->
+  <rect x="478" y="346" width="644" height="14" fill="url(#beam)"/>
+  <rect x="478" y="360" width="644" height="4" fill="#0a0d1f" opacity="0.4"/>
+  <rect x="466" y="324" width="668" height="22" fill="url(#beam)"/>
+  <rect x="466" y="324" width="668" height="3" fill="#ffffff" opacity="0.5"/>
+  <path fill="url(#beam)" d="M466 324 L800 222 L1134 324 Z"/>
+  <path fill="#0a0d1f" opacity="0.5" d="M800 222 L1134 324 L800 324 Z"/>
+  <path fill="#ffffff" opacity="0.25" d="M466 324 L800 222 L800 226 L470 324 Z"/>
+
+  <!-- Foreground: fallen drums and a broken column, nearer and darker -->
+  <rect x="1236" y="612" width="22" height="64" fill="url(#stone)"/>
+  <ellipse cx="1247" cy="676" rx="11" ry="4" fill="#0a0d1f" opacity="0.5"/>
+  <rect x="1270" y="600" width="22" height="76" fill="url(#stone)"/>
+  <ellipse cx="1281" cy="676" rx="11" ry="4" fill="#0a0d1f" opacity="0.5"/>
+  <rect x="200" y="640" width="48" height="26" rx="4" fill="url(#stone)" transform="rotate(-6 224 653)"/>
+</svg>

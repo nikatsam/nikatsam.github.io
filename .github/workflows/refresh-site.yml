@@ -1,0 +1,42 @@
+# Weekly refresh: rebuild generated pages, check links and Store IDs, then commit only if the check passes.
+# Pages publishes the committed files. Uses only the built-in GITHUB_TOKEN, no other secrets.
+name: Refresh site
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rebuild cards, app pages and feed
+        run: |
+          node scripts/build-index.mjs
+          node scripts/build-app-pages.mjs
+          node scripts/build-feed.mjs
+      - name: Rebuild sitemap
+        run: node scripts/build-sitemap.mjs
+      - name: Check links and Store IDs
+        run: node scripts/check-links.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html apps feed.xml sitemap.xml reports/sitemap-audit.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Refresh cards, app pages, feed and sitemap"
+            git push
+          fi

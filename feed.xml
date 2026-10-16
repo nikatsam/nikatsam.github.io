@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nikatsam updates</title>
+  <id>https://nikatsam.github.io/</id>
+  <link href="https://nikatsam.github.io/feed.xml" rel="self"/>
+  <link href="https://nikatsam.github.io/"/>
+  <updated>2026-10-16T00:00:00.000Z</updated>
+
+</feed>
