@@ -1,9 +1,11 @@
 // Writes one public page per project to apps/<slug>/index.html, from data/projects.json.
-// Only facts we hold are shown. Screenshots, requirements and FAQs get added when the data exists.
-import { writeFile, mkdir, access } from "node:fs/promises";
+// Only facts we hold are shown. Screenshots come from the Store (data/screenshots.json).
+import { writeFile, mkdir, access, readFile } from "node:fs/promises";
 import { ROOT, loadConfig, esc, storeUrl, reportUrl, statusText, statusClass, previewPath } from "./lib.mjs";
 
 const cfg = await loadConfig();
+// Store screenshots, downloaded by scripts/fetch-store-screenshots.py
+const shots = JSON.parse(await readFile(new URL("data/screenshots.json", ROOT), "utf8").catch(() => "{}"));
 const exists = (rel) => access(new URL(rel, ROOT)).then(() => true, () => false);
 
 const page = async (p) => {
@@ -15,7 +17,18 @@ const page = async (p) => {
     p.site ? `<a class="btn btn-ghost" href="${esc(p.site)}">Visit the website</a>` : "",
     p.github ? `<a class="btn btn-ghost" href="${esc(p.github)}">View on GitHub</a>` : "",
     p.bugRepo ? `<a class="btn btn-ghost" href="${reportUrl(cfg, p.bugRepo)}">Report a bug</a>` : "",
-  ].join("\n        ");
+  ].filter(Boolean).join("\n        ");
+
+  const items = shots[p.slug] || [];
+  const gallery = items.length
+    ? `<section class="gallery" aria-labelledby="shots-${p.slug}">
+      <h2 id="shots-${p.slug}">Screenshots</h2>
+      <ul class="shots">
+        ${items.map((im, i) => `<li><figure><img src="../../assets/screens/${p.slug}/${im.file}" width="${im.width}" height="${im.height}" alt="${esc(p.name)} screenshot ${i + 1} of ${items.length}" loading="lazy"></figure></li>`).join("\n        ")}
+      </ul>
+    </section>`
+    : "";
+
   const hasPreview = await exists(previewPath(p));
   const preview = hasPreview ? `<figure class="app-preview"><img src="../../${previewPath(p)}" alt="Screenshot of the ${esc(p.name)} website" width="1280" height="800"></figure>` : "";
   const schema = {
@@ -90,6 +103,7 @@ const page = async (p) => {
     <div class="cta-row">
         ${actions}
     </div>
+    ${gallery}
     ${preview}
     <p class="back back-bottom"><a class="btn btn-ghost" href="../../#projects">&larr; Back to all projects</a></p>
   </main>

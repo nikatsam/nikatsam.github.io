@@ -1,0 +1,237 @@
+{
+  "traypilot": [
+    {
+      "file": "01.webp",
+      "width": 374,
+      "height": 443
+    },
+    {
+      "file": "02.webp",
+      "width": 350,
+      "height": 647
+    }
+  ],
+  "clerkbrain": [
+    {
+      "file": "01.webp",
+      "width": 1280,
+      "height": 669
+    },
+    {
+      "file": "02.webp",
+      "width": 1280,
+      "height": 669
+    },
+    {
+      "file": "03.webp",
+      "width": 1280,
+      "height": 693
+    },
+    {
+      "file": "04.webp",
+      "width": 1280,
+      "height": 669
+    },
+    {
+      "file": "05.webp",
+      "width": 1280,
+      "height": 669
+    }
+  ],
+  "fix-my-photo-library": [
+    {
+      "file": "01.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "02.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "03.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "04.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "05.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "06.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "07.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "08.webp",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "fix-my-photo-dates": [
+    {
+      "file": "01.webp",
+      "width": 1280,
+      "height": 671
+    },
+    {
+      "file": "02.webp",
+      "width": 1280,
+      "height": 671
+    },
+    {
+      "file": "03.webp",
+      "width": 1280,
+      "height": 674
+    },
+    {
+      "file": "04.webp",
+      "width": 1280,
+      "height": 676
+    }
+  ],
+  "renamefromfolder": [
+    {
+      "file": "01.webp",
+      "width": 1280,
+      "height": 721
+    },
+    {
+      "file": "02.webp",
+      "width": 1280,
+      "height": 721
+    },
+    {
+      "file": "03.webp",
+      "width": 1280,
+      "height": 721
+    },
+    {
+      "file": "04.webp",
+      "width": 1280,
+      "height": 721
+    },
+    {
+      "file": "05.webp",
+      "width": 1280,
+      "height": 721
+    }
+  ],
+  "shelfsearch": [
+    {
+      "file": "01.webp",
+      "width": 1154,
+      "height": 763
+    },
+    {
+      "file": "02.webp",
+      "width": 1157,
+      "height": 771
+    },
+    {
+      "file": "03.webp",
+      "width": 1161,
+      "height": 766
+    },
+    {
+      "file": "04.webp",
+      "width": 1156,
+      "height": 756
+    }
+  ],
+  "what-was-i-working-on": [
+    {
+      "file": "01.webp",
+      "width": 756,
+      "height": 525
+    },
+    {
+      "file": "02.webp",
+      "width": 1085,
+      "height": 750
+    },
+    {
+      "file": "03.webp",
+      "width": 1097,
+      "height": 754
+    },
+    {
+      "file": "04.webp",
+      "width": 747,
+      "height": 806
+    }
+  ],
+  "tower-defence-riftward": [
+    {
+      "file": "01.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "02.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "03.webp",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "blobheads-voleyball-arcade": [
+    {
+      "file": "01.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "02.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "03.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "04.webp",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "puzzlotski-puzzle": [
+    {
+      "file": "01.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "02.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "03.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "04.webp",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

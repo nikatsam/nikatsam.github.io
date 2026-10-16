@@ -506,3 +506,10 @@ dialog.project-dialog .lead { font-size: 1rem; margin-bottom: 0.6rem; }
 }
 .trust-list li::before { content: "✓"; color: var(--accent-2); margin-right: 0.45rem; font-weight: 800; }
 .trust-link { font-weight: 650; font-size: 0.92rem; }
+
+/* Screenshot gallery on product pages */
+.gallery { margin-top: 2.5rem; }
+.gallery h2 { margin-bottom: 1rem; }
+.shots { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.9rem; }
+.shots figure { margin: 0; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.shots img { display: block; width: 100%; height: auto; }
