@@ -74,14 +74,14 @@
   "projects": {
     "traypilot": {
       "tagline": "Helligkeit, Audio und Netzwerkstatistiken, mit einem Klick aus dem Infobereich.",
-      "excerpt": "Ein kompaktes Fenster für Windows 11, das die alltäglichen Bedienelemente griffbereit hält: Helligkeit kompatibler Monitore anpassen, Wiedergabegeräte wählen, den Netzwerkdurchsatz live verfolgen und gängige Einstellungen ändern. Den Tastenkürzel zum Öffnen legen Sie selbst fest.",
+      "excerpt": "Ein kompaktes Fenster für Windows 11, das die alltäglichen Bedienelemente griffbereit hält: Helligkeit kompatibler Monitore anpassen, Wiedergabegeräte wählen, den Netzwerkdurchsatz live verfolgen und gängige Einstellungen ändern. Das Tastenkürzel zum Öffnen legen Sie selbst fest.",
       "audience": "Für Windows-11-Nutzer, die Bildschirm, Audio und Netzwerk mit einem Klick erreichen möchten.",
       "features": [
         "Helligkeit kompatibler Monitore anpassen, mit einer Alternative für Laptop-Displays",
         "Wiedergabegerät wechseln und Lautsprecher oder Mikrofone mit einem Klick stummschalten",
         "Download- und Upload-Raten aktiver Netzwerkadapter einsehen",
         "Verknüpfungen für Design, Nachtlicht, Energiemodus, Desktopsymbole und Bildschirmsperre",
-        "Eigenen Tastenkürzel zum Öffnen des Fensters festlegen"
+        "Ein eigenes Tastenkürzel zum Öffnen des Fensters festlegen"
       ],
       "limits": [
         "Anmeldung, Cloud-Synchronisierung oder Nutzungsverfolgung voraussetzen",
