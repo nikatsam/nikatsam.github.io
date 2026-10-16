@@ -29,11 +29,14 @@ jobs:
         run: node scripts/build-sitemap.mjs
       - name: Check links and Store IDs
         run: node scripts/check-links.mjs
+      - name: Tell IndexNow about new or changed URLs
+        # Never fails the job: problems are printed and the run continues.
+        run: python scripts/indexnow.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html apps feed.xml sitemap.xml reports/sitemap-audit.json
+          git add index.html apps feed.xml sitemap.xml data/indexnow.json data/indexnow-state.json *.txt
           if git diff --cached --quiet; then
             echo "No changes"
           else
