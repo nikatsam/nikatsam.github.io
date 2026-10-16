@@ -528,3 +528,11 @@ dialog.project-dialog .lead { font-size: 1rem; margin-bottom: 0.6rem; }
   .site-header nav:not(.lang-switch) { flex-wrap: wrap; justify-content: flex-start; gap: 0.2rem 0.8rem; }
   .header-tools { margin-left: auto; }
 }
+
+/* Mid-size screens: keep the header on one row (menu, language codes, theme icon) */
+@media (max-width: 1000px) and (min-width: 761px) {
+  .site-header nav:not(.lang-switch) { flex-wrap: nowrap; white-space: nowrap; gap: 0.35rem 0.7rem; font-size: 0.88rem; }
+  .header-tools { gap: 0.35rem; }
+  .theme-toggle { padding: 0.4rem 0.55rem; }
+  .theme-toggle span { display: none; }
+}
