@@ -15,7 +15,7 @@
     "stat_projects": "Projekte",
     "stat_sites": "Websites online",
     "stat_apps": "Windows-Apps",
-    "strip": "Die Apps von Nikatsam benötigen: <strong>KEIN Tracking</strong>, <strong>KEIN Konto</strong> und funktionieren <strong>OFFLINE</strong>.",
+    "strip": "Die Apps von Nikatsam verzichten auf Tracking und Konten und funktionieren offline.",
     "strip_link": "Warum das wichtig ist →",
     "about_eyebrow": "Über mich",
     "about_title": "Ein Entwickler, viele kleine Projekte",
@@ -56,7 +56,7 @@
     "footer_built": "Statische Website. Quellcode auf GitHub.",
     "footer_disclaimer": "Nicht mit Microsoft verbunden. Produktnamen gehören ihren jeweiligen Eigentümern.",
     "lang_label": "Sprache",
-    "home_title": "Nikatsam | Windows-Apps und Spiele von einem Einzelentwickler",
+    "home_title": "Nikatsam | Windows-Apps und Spiele",
     "home_desc": "Windows-Apps und Spiele von Nikatsam: Desktop-Werkzeuge, Produktseiten, Anleitungen und ein Tower-Defense-Spiel. Entdecken, herunterladen oder Fehler melden.",
     "app_suffix": "Windows-App",
     "game_suffix": "Windows-Spiel",
@@ -235,26 +235,41 @@
     "h1": "Werkzeuge, die Sie nicht beobachten",
     "lead": "Jedes Werkzeug, das ich baue, folgt einer Regel: Es soll seine Aufgabe erledigen, ohne Daten zu sammeln, die es nicht braucht. Hier steht, was das konkret bedeutet und was es nicht abdeckt.",
     "sections": [
-      { "h2": "Warum das wichtig ist", "paragraphs": [
-        "Die meiste Windows-Software wird durch die Daten finanziert, die sie sammelt. Ihre Dateinamen, Fotos, Belege und Gewohnheiten können in Profilen landen, denen Sie nie zugestimmt haben. Bei Werkzeugen, die persönliche Dateien anfassen, ist das der falsche Handel.",
-        "Deshalb ist die Grundregel einfach. Wenn eine Funktion Ihre Daten braucht, sollte sie auf Ihrem PC laufen. Wenn sie sie nicht braucht, sollte sie gar nicht danach fragen."
-      ]},
-      { "h2": "Was ich in jeder App anstrebe", "list": [
-        "<strong>Kein Tracking.</strong> Keine Werbe-IDs, keine Analyse-SDKs und keine versteckte Telemetrie in den Apps selbst.",
-        "<strong>Kein Konto.</strong> Sie sollten sich nicht anmelden müssen, um ein Werkzeug zu nutzen.",
-        "<strong>Offline zuerst.</strong> Die Arbeit findet auf Ihrem Gerät statt. Wenn ein optionaler Download nötig ist, etwa ein KI-Modell, wird das von Anfang an angegeben.",
-        "<strong>Verständliche Richtlinien.</strong> Jede App hat ihre eigene Datenschutzerklärung. Wo es eine gibt, verlinkt die Website der App darauf."
-      ]},
-      { "h2": "Über diese Website", "paragraphs": [
-        "Diese Website besteht aus statischen Seiten, die auf GitHub Pages gehostet werden. Sie beschreibt nur die Apps; die oben genannten Datenschutzversprechen gelten für die Apps.",
-        "GitHub führt als Hosting-Anbieter eigene Standard-Serverprotokolle nach seiner eigenen Datenschutzrichtlinie. Ich kann diese nicht abschalten und habe keinen Zugriff darauf. Wenn Sie wissen möchten, was protokolliert wird, lesen Sie die <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung von GitHub</a>."
-      ]},
-      { "h2": "Was diese Seite nicht abdeckt", "paragraphs": [
-        "Jede App ist ein eigenes Produkt mit eigener Richtlinie, und der Microsoft Store hat eigene Bedingungen für Downloads und Käufe. Wenn etwas hier der Richtlinie einer App widerspricht, gilt die Richtlinie dieser App."
-      ]},
-      { "h2": "Fragen oder Probleme", "paragraphs": [
-        "Wenn eine App nicht mit dem übereinstimmt, was hier steht, nutzen Sie den Link „Fehler melden“ auf der Karte des jeweiligen Projekts. Dort ist der öffentliche Ort dafür."
-      ]}
+      {
+        "h2": "Warum das wichtig ist",
+        "paragraphs": [
+          "Die meiste Windows-Software wird durch die Daten finanziert, die sie sammelt. Ihre Dateinamen, Fotos, Belege und Gewohnheiten können in Profilen landen, denen Sie nie zugestimmt haben. Bei Werkzeugen, die persönliche Dateien anfassen, ist das der falsche Handel.",
+          "Deshalb ist die Grundregel einfach. Wenn eine Funktion Ihre Daten braucht, sollte sie auf Ihrem PC laufen. Wenn sie sie nicht braucht, sollte sie gar nicht danach fragen."
+        ]
+      },
+      {
+        "h2": "Was ich in jeder App anstrebe",
+        "list": [
+          "<strong>Kein Tracking.</strong> Keine Werbe-IDs, keine Analyse-SDKs und keine versteckte Telemetrie in den Apps selbst.",
+          "<strong>Kein Konto.</strong> Sie sollten sich nicht anmelden müssen, um ein Werkzeug zu nutzen.",
+          "<strong>Offline zuerst.</strong> Die Arbeit findet auf Ihrem Gerät statt. Wenn ein optionaler Download nötig ist, etwa ein KI-Modell, wird das von Anfang an angegeben.",
+          "<strong>Verständliche Richtlinien.</strong> Jede App hat ihre eigene Datenschutzerklärung. Wo es eine gibt, verlinkt die Website der App darauf."
+        ]
+      },
+      {
+        "h2": "Über diese Website",
+        "paragraphs": [
+          "Diese Website besteht aus statischen Seiten, die auf GitHub Pages gehostet werden. Sie beschreibt nur die Apps; die oben genannten Datenschutzversprechen gelten für die Apps.",
+          "GitHub führt als Hosting-Anbieter eigene Standard-Serverprotokolle nach seiner eigenen Datenschutzrichtlinie. Ich kann diese nicht abschalten und habe keinen Zugriff darauf. Wenn Sie wissen möchten, was protokolliert wird, lesen Sie die <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung von GitHub</a>."
+        ]
+      },
+      {
+        "h2": "Was diese Seite nicht abdeckt",
+        "paragraphs": [
+          "Jede App ist ein eigenes Produkt mit eigener Richtlinie, und der Microsoft Store hat eigene Bedingungen für Downloads und Käufe. Wenn etwas hier der Richtlinie einer App widerspricht, gilt die Richtlinie dieser App."
+        ]
+      },
+      {
+        "h2": "Fragen oder Probleme",
+        "paragraphs": [
+          "Wenn eine App nicht mit dem übereinstimmt, was hier steht, nutzen Sie den Link „Fehler melden“ auf der Karte des jeweiligen Projekts. Dort ist der öffentliche Ort dafür."
+        ]
+      }
     ]
   }
 }

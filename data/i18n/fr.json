@@ -10,12 +10,12 @@
     "title_before": "Je crée de petites applications utiles pour ",
     "title_grad": "Windows",
     "title_after": " et les outils qui les entourent.",
-    "lead": "Utilitaires de bureau, sites de produits, guides et, à l'occasion, un jeu. Tout ce qui figure ci-dessous est en ligne, et une bonne partie est gratuite à essayer.",
+    "lead": "Utilitaires de bureau, pages produits, guides et, de temps en temps, un jeu. Tout ce qui figure ici est en ligne, et beaucoup peut être essayé gratuitement.",
     "cta_explore": "Découvrir les projets",
     "stat_projects": "projets",
     "stat_sites": "sites en ligne",
     "stat_apps": "applications Windows",
-    "strip": "Les applications créées par Nikatsam exigent : <strong>AUCUN suivi</strong>, <strong>AUCUN compte</strong> et fonctionnent <strong>HORS LIGNE</strong>.",
+    "strip": "Les applications de Nikatsam n'exigent ni suivi ni compte, et fonctionnent hors ligne.",
     "strip_link": "Pourquoi c'est important →",
     "about_eyebrow": "À propos",
     "about_title": "Un développeur, beaucoup de petits projets",
@@ -56,8 +56,8 @@
     "footer_built": "Site statique. Code source sur GitHub.",
     "footer_disclaimer": "Non affilié à Microsoft. Les noms des produits appartiennent à leurs propriétaires.",
     "lang_label": "Langue",
-    "home_title": "Nikatsam | Applications et jeux Windows d'un développeur indépendant",
-    "home_desc": "Applications et jeux Windows de Nikatsam : utilitaires de bureau, sites de produits, guides et un jeu de tower defense. Découvrez, téléchargez ou signalez un bug.",
+    "home_title": "Nikatsam | Applications et jeux Windows",
+    "home_desc": "Applications et jeux Windows de Nikatsam : utilitaires, sites produits, guides et un tower defense. Découvrez, téléchargez ou signalez un bug.",
     "app_suffix": "application Windows",
     "game_suffix": "jeu Windows",
     "crumb_home": "Accueil",
@@ -230,31 +230,46 @@
   },
   "privacy": {
     "title": "Confidentialité d'abord | Nikatsam",
-    "description": "Pourquoi les applications Windows que je crée respectent la vie privée dès la conception : aucun suivi, aucun compte, fonctionnement hors ligne, et ce que cela signifie concrètement.",
+    "description": "Pourquoi mes applications Windows respectent la vie privée : aucun suivi, aucun compte, fonctionnement hors ligne, et ce que cela veut dire concrètement.",
     "eyebrow": "Confidentialité d'abord",
     "h1": "Des outils qui ne vous surveillent pas",
     "lead": "Chaque outil que je crée repose sur une règle : il doit faire son travail sans collecter de données inutiles. Voici ce que cela signifie concrètement, et ce que cela ne couvre pas.",
     "sections": [
-      { "h2": "Pourquoi c'est important", "paragraphs": [
-        "La plupart des logiciels Windows sont financés par les données qu'ils collectent. Le nom de vos fichiers, vos photos, vos reçus et vos habitudes peuvent finir dans des profils que vous n'avez jamais acceptés. Pour des outils qui touchent à des fichiers personnels, c'est un mauvais compromis.",
-        "La règle de base est donc simple. Si une fonction a besoin de vos données, elle doit s'exécuter sur votre PC. Si elle n'en a pas besoin, elle ne devrait pas les demander."
-      ]},
-      { "h2": "Ce que je vise dans chaque application", "list": [
-        "<strong>Aucun suivi.</strong> Pas d'identifiants publicitaires, pas de kit d'analyse et pas de télémétrie cachée dans les applications elles-mêmes.",
-        "<strong>Aucun compte.</strong> Vous ne devriez pas avoir à vous inscrire pour utiliser un outil.",
-        "<strong>Hors ligne d'abord.</strong> Le travail se fait sur votre appareil. Lorsqu'un téléchargement facultatif est nécessaire, comme un modèle d'IA, cela est indiqué dès le départ.",
-        "<strong>Des politiques en langage clair.</strong> Chaque application a sa propre politique de confidentialité. Lorsqu'elle existe, le site de l'application y renvoie."
-      ]},
-      { "h2": "À propos de ce site web", "paragraphs": [
-        "Ce site web est un ensemble de pages statiques hébergées sur GitHub Pages. Il ne fait que décrire les applications ; les engagements de confidentialité ci-dessus s'appliquent aux applications.",
-        "GitHub, en tant qu'hébergeur, conserve ses propres journaux serveur standard, selon sa propre politique de confidentialité. Je ne peux pas les désactiver et je n'y ai pas accès. Si vous voulez savoir ce qu'il enregistre, lisez la <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">déclaration de confidentialité de GitHub</a>."
-      ]},
-      { "h2": "Ce que cette page ne couvre pas", "paragraphs": [
-        "Chaque application est un produit distinct avec sa propre politique, et le Microsoft Store a ses propres conditions pour les téléchargements et les achats. Si un point de cette page entre en conflit avec la politique d'une application, c'est la politique de cette application qui s'applique."
-      ]},
-      { "h2": "Questions ou problèmes", "paragraphs": [
-        "Si une application ne correspond pas à ce qui est écrit ici, utilisez le lien « Signaler un bug » sur la carte du projet concerné. C'est le lieu public pour le signaler."
-      ]}
+      {
+        "h2": "Pourquoi c'est important",
+        "paragraphs": [
+          "La plupart des logiciels Windows sont financés par les données qu'ils collectent. Le nom de vos fichiers, vos photos, vos reçus et vos habitudes peuvent finir dans des profils que vous n'avez jamais acceptés. Pour des outils qui touchent à des fichiers personnels, c'est un mauvais compromis.",
+          "La règle de base est donc simple. Si une fonction a besoin de vos données, elle doit s'exécuter sur votre PC. Si elle n'en a pas besoin, elle ne devrait pas les demander."
+        ]
+      },
+      {
+        "h2": "Ce que je vise dans chaque application",
+        "list": [
+          "<strong>Aucun suivi.</strong> Pas d'identifiants publicitaires, pas de kit d'analyse et pas de télémétrie cachée dans les applications elles-mêmes.",
+          "<strong>Aucun compte.</strong> Vous ne devriez pas avoir à vous inscrire pour utiliser un outil.",
+          "<strong>Hors ligne d'abord.</strong> Le travail se fait sur votre appareil. Lorsqu'un téléchargement facultatif est nécessaire, comme un modèle d'IA, cela est indiqué dès le départ.",
+          "<strong>Des politiques en langage clair.</strong> Chaque application a sa propre politique de confidentialité. Lorsqu'elle existe, le site de l'application y renvoie."
+        ]
+      },
+      {
+        "h2": "À propos de ce site web",
+        "paragraphs": [
+          "Ce site web est un ensemble de pages statiques hébergées sur GitHub Pages. Il ne fait que décrire les applications ; les engagements de confidentialité ci-dessus s'appliquent aux applications.",
+          "GitHub, en tant qu'hébergeur, conserve ses propres journaux serveur standard, selon sa propre politique de confidentialité. Je ne peux pas les désactiver et je n'y ai pas accès. Si vous voulez savoir ce qu'il enregistre, lisez la <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">déclaration de confidentialité de GitHub</a>."
+        ]
+      },
+      {
+        "h2": "Ce que cette page ne couvre pas",
+        "paragraphs": [
+          "Chaque application est un produit distinct avec sa propre politique, et le Microsoft Store a ses propres conditions pour les téléchargements et les achats. Si un point de cette page entre en conflit avec la politique d'une application, c'est la politique de cette application qui s'applique."
+        ]
+      },
+      {
+        "h2": "Questions ou problèmes",
+        "paragraphs": [
+          "Si une application ne correspond pas à ce qui est écrit ici, utilisez le lien « Signaler un bug » sur la carte du projet concerné. C'est le lieu public pour le signaler."
+        ]
+      }
     ]
   }
 }

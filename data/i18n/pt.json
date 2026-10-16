@@ -10,12 +10,12 @@
     "title_before": "Crio apps pequenos e úteis para ",
     "title_grad": "Windows",
     "title_after": " e as ferramentas que os cercam.",
-    "lead": "Utilitários de desktop, sites de produtos, guias e, de vez em quando, um jogo. Tudo o que está abaixo está no ar, e grande parte pode ser testada gratuitamente.",
+    "lead": "Utilitários de desktop, sites de produtos, guias e, de vez em quando, um jogo. Tudo o que está aqui está no ar, e boa parte pode ser testada de graça.",
     "cta_explore": "Explorar projetos",
     "stat_projects": "projetos",
     "stat_sites": "sites no ar",
     "stat_apps": "apps para Windows",
-    "strip": "Os apps da Nikatsam exigem: <strong>SEM rastreamento</strong>, <strong>SEM contas</strong> e funcionam <strong>OFFLINE</strong>.",
+    "strip": "Os apps da Nikatsam não rastreiam, não pedem conta e funcionam offline.",
     "strip_link": "Por que isso importa →",
     "about_eyebrow": "Sobre",
     "about_title": "Um desenvolvedor, muitos projetos pequenos",
@@ -56,7 +56,7 @@
     "footer_built": "Site estático. Código-fonte no GitHub.",
     "footer_disclaimer": "Não é afiliado à Microsoft. Os nomes dos produtos pertencem aos seus proprietários.",
     "lang_label": "Idioma",
-    "home_title": "Nikatsam | Apps e jogos para Windows de um desenvolvedor independente",
+    "home_title": "Nikatsam | Apps e jogos para Windows",
     "home_desc": "Apps e jogos para Windows da Nikatsam: utilitários de desktop, sites de produtos, guias e um jogo de tower defense. Explore, baixe ou relate um erro.",
     "app_suffix": "app para Windows",
     "game_suffix": "jogo para Windows",
@@ -235,26 +235,41 @@
     "h1": "Ferramentas que não observam você",
     "lead": "Toda ferramenta que eu crio segue uma regra: deve fazer o seu trabalho sem coletar dados de que não precisa. Aqui está o que isso significa na prática e o que não cobre.",
     "sections": [
-      { "h2": "Por que isso importa", "paragraphs": [
-        "A maioria dos softwares para Windows é financiada pelos dados que coleta. Nomes dos seus arquivos, fotos, recibos e hábitos podem acabar em perfis que você nunca aceitou. Para ferramentas que mexem em arquivos pessoais, essa é a troca errada.",
-        "Por isso o ponto de partida é simples. Se um recurso precisa dos seus dados, deve rodar no seu PC. Se não precisa, não deveria pedi-los."
-      ]},
-      { "h2": "O que busco em todo app", "list": [
-        "<strong>Sem rastreamento.</strong> Sem identificadores de publicidade, sem kits de análise e sem telemetria oculta nos próprios apps.",
-        "<strong>Sem conta.</strong> Você não deveria precisar se cadastrar para usar uma ferramenta.",
-        "<strong>Offline primeiro.</strong> O trabalho acontece no seu dispositivo. Quando um download opcional é necessário, como um modelo de IA, isso é informado logo de início.",
-        "<strong>Políticas em linguagem simples.</strong> Cada app tem sua própria política de privacidade. Quando existe, o site do app leva até ela."
-      ]},
-      { "h2": "Sobre este site", "paragraphs": [
-        "Este site é um conjunto de páginas estáticas hospedadas no GitHub Pages. Ele apenas descreve os apps; as promessas de privacidade acima se aplicam aos apps.",
-        "O GitHub, como hospedagem, mantém seus próprios registros padrão de servidor sob a política de privacidade dele. Eu não consigo desativá-los e não tenho acesso a eles. Se quiser saber o que ele registra, leia a <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">declaração de privacidade do GitHub</a>."
-      ]},
-      { "h2": "O que esta página não cobre", "paragraphs": [
-        "Cada app é um produto separado, com sua própria política, e a Microsoft Store tem seus próprios termos para downloads e compras. Se algo aqui entrar em conflito com a política de um app, vale a política desse app."
-      ]},
-      { "h2": "Perguntas ou problemas", "paragraphs": [
-        "Se um app não corresponder ao que está escrito aqui, use o link «Relatar um erro» no cartão desse projeto. É o lugar público para isso."
-      ]}
+      {
+        "h2": "Por que isso importa",
+        "paragraphs": [
+          "A maioria dos softwares para Windows é financiada pelos dados que coleta. Nomes dos seus arquivos, fotos, recibos e hábitos podem acabar em perfis que você nunca aceitou. Para ferramentas que mexem em arquivos pessoais, essa é a troca errada.",
+          "Por isso o ponto de partida é simples. Se um recurso precisa dos seus dados, deve rodar no seu PC. Se não precisa, não deveria pedi-los."
+        ]
+      },
+      {
+        "h2": "O que busco em todo app",
+        "list": [
+          "<strong>Sem rastreamento.</strong> Sem identificadores de publicidade, sem kits de análise e sem telemetria oculta nos próprios apps.",
+          "<strong>Sem conta.</strong> Você não deveria precisar se cadastrar para usar uma ferramenta.",
+          "<strong>Offline primeiro.</strong> O trabalho acontece no seu dispositivo. Quando um download opcional é necessário, como um modelo de IA, isso é informado logo de início.",
+          "<strong>Políticas em linguagem simples.</strong> Cada app tem sua própria política de privacidade. Quando existe, o site do app leva até ela."
+        ]
+      },
+      {
+        "h2": "Sobre este site",
+        "paragraphs": [
+          "Este site é um conjunto de páginas estáticas hospedadas no GitHub Pages. Ele apenas descreve os apps; as promessas de privacidade acima se aplicam aos apps.",
+          "O GitHub, como hospedagem, mantém seus próprios registros padrão de servidor sob a política de privacidade dele. Eu não consigo desativá-los e não tenho acesso a eles. Se quiser saber o que ele registra, leia a <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">declaração de privacidade do GitHub</a>."
+        ]
+      },
+      {
+        "h2": "O que esta página não cobre",
+        "paragraphs": [
+          "Cada app é um produto separado, com sua própria política, e a Microsoft Store tem seus próprios termos para downloads e compras. Se algo aqui entrar em conflito com a política de um app, vale a política desse app."
+        ]
+      },
+      {
+        "h2": "Perguntas ou problemas",
+        "paragraphs": [
+          "Se um app não corresponder ao que está escrito aqui, use o link «Relatar um erro» no cartão desse projeto. É o lugar público para isso."
+        ]
+      }
     ]
   }
 }
