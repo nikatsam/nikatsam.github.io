@@ -8,10 +8,10 @@
 import { writeFile, mkdir, access, readFile } from "node:fs/promises";
 import { ROOT, loadConfig, esc, storeUrl, reportUrl, statusText, statusClass, previewPath } from "./lib.mjs";
 
-const LANGS = ["es", "fr", "de", "pt"];
-const NATIVE = { en: "English", es: "Español", fr: "Français", de: "Deutsch", pt: "Português" };
-const CLOSE = { es: "Cerrar", fr: "Fermer", de: "Schließen", pt: "Fechar" };
-const DIR = { es: "ltr", fr: "ltr", de: "ltr", pt: "ltr" };
+const LANGS = ["es", "fr", "de", "pt", "ja"];
+const NATIVE = { en: "English", es: "Español", fr: "Français", de: "Deutsch", pt: "Português", ja: "日本語" };
+const CLOSE = { es: "Cerrar", fr: "Fermer", de: "Schließen", pt: "Fechar", ja: "閉じる" };
+const DIR = { es: "ltr", fr: "ltr", de: "ltr", pt: "ltr", ja: "ltr" };
 
 const cfg = await loadConfig();
 const SITE = cfg.siteUrl; // https://nikatsam.github.io/

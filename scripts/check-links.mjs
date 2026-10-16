@@ -65,7 +65,7 @@ for (const [url, files] of links) {
   // Links to this profile site are checked against the local build, since they only resolve after deploy
   // Only the profile's own pages (root and apps/) are local. Project websites are live sites.
   const ownPath = url.slice(cfg.siteUrl.length);
-  if (url.startsWith(cfg.siteUrl) && (ownPath === "" || ownPath.startsWith("apps/") || ownPath.startsWith("feed") || ownPath.startsWith("privacy-first") || /^(es|fr|de|pt)(\/|$)/.test(ownPath))) {
+  if (url.startsWith(cfg.siteUrl) && (ownPath === "" || ownPath.startsWith("apps/") || ownPath.startsWith("feed") || ownPath.startsWith("privacy-first") || /^(es|fr|de|pt|ja)(\/|$)/.test(ownPath))) {
     const rel = url.slice(cfg.siteUrl.length).replace(/[#?].*$/, "");
     const local = new URL(rel.endsWith("/") || rel === "" ? `${rel}index.html` : rel, ROOT);
     const ok = await access(local).then(() => true, () => false);

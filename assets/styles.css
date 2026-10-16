@@ -519,3 +519,7 @@ dialog.project-dialog .lead { font-size: 1rem; margin-bottom: 0.6rem; }
 .lang-switch a { color: var(--muted); font-weight: 600; }
 .lang-switch a:hover { color: var(--text); text-decoration: none; }
 .lang-switch a[aria-current="true"] { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
+
+/* Japanese text: use Japanese system fonts */
+:lang(ja) { font-family: "Yu Gothic UI", "Yu Gothic", "Hiragino Sans", "Meiryo", system-ui, sans-serif; line-height: 1.75; }
+:lang(ja) h1, :lang(ja) h2, :lang(ja) h3 { letter-spacing: 0; }

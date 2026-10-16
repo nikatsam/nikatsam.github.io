@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html apps feed.xml sitemap.xml data/indexnow.json data/indexnow-state.json data/i18n-groups.json es fr de pt *.txt
+          git add index.html apps feed.xml sitemap.xml data/indexnow.json data/indexnow-state.json data/i18n-groups.json es fr de pt ja *.txt
           if git diff --cached --quiet; then
             echo "No changes"
           else
