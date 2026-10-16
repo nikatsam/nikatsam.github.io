@@ -9,6 +9,21 @@
 // URLs is simpler to audit than a sitemap index and avoids cross-host rules.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { execFileSync } from "node:child_process";
+import path from "node:path";
+import os from "node:os";
+
+// Last commit date (YYYY-MM-DD) of a file in the public repo. Used for lastmod on profile pages.
+// Set PUBLISH_DIR to the public repo checkout. Defaults to the local publish clone.
+const PUBLISH_DIR = process.env.PUBLISH_DIR || path.join(process.env.TEMP || os.tmpdir(), "site-publish");
+function gitDate(relPath) {
+  try {
+    const out = execFileSync("git", ["log", "-1", "--format=%cs", "--", relPath], { cwd: PUBLISH_DIR, encoding: "utf8" }).trim();
+    return out || undefined;
+  } catch {
+    return undefined;
+  }
+}
 
 const ROOT = new URL("../", import.meta.url);
 const CONCURRENCY = 8;
@@ -106,12 +121,12 @@ const addCandidate = (loc, lastmod, source) => {
 };
 
 // The profile's own pages are always candidates
-addCandidate(config.siteUrl, undefined, "profile");
+addCandidate(config.siteUrl, gitDate("index.html"), "profile");
 // ...plus the profile's own app pages and the privacy page
 for (const p of config.projects) {
-  if (p.site || p.store) addCandidate(new URL(`apps/${p.slug}/`, config.siteUrl).href, undefined, "app page");
+  if (p.site || p.store) addCandidate(new URL(`apps/${p.slug}/`, config.siteUrl).href, gitDate(`apps/${p.slug}/index.html`), "app page");
 }
-addCandidate(new URL("privacy-first/", config.siteUrl).href, undefined, "profile");
+addCandidate(new URL("privacy-first/", config.siteUrl).href, gitDate("privacy-first/index.html"), "profile");
 
 for (const project of config.projects) {
   if (!project.pagesUrl) {

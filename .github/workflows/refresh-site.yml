@@ -26,6 +26,8 @@ jobs:
           node scripts/build-app-pages.mjs
           node scripts/build-feed.mjs
       - name: Rebuild sitemap
+        env:
+          PUBLISH_DIR: "."
         run: node scripts/build-sitemap.mjs
       - name: Check links and Store IDs
         run: node scripts/check-links.mjs
