@@ -401,7 +401,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, .card:focus-within {
   max-width: var(--max); margin: 0 auto; padding: 0.9rem clamp(1rem, 4vw, 2.5rem);
   text-align: center; color: var(--muted);
 }
-.privacy-strip p { margin: 0; }
+.privacy-strip p { margin: 0; font-size: 1rem; }
+.privacy-strip strong { color: var(--accent-2); letter-spacing: 0.02em; }
 .privacy-strip strong { color: var(--text); }
 
 /* Cards: preview, audience line and tags */
@@ -493,7 +494,7 @@ dialog.project-dialog .lead { font-size: 1rem; margin-bottom: 0.6rem; }
 
 /* Privacy strip: a focused trust line under the hero */
 .privacy-strip {
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.6rem 1.4rem;
+  display: flex; justify-content: center;
   padding: 1.1rem clamp(1rem, 4vw, 2.5rem); margin: 0 auto;
   max-width: var(--max); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
   text-align: center;
