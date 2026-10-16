@@ -325,10 +325,10 @@ const injectEnglish = async (file, P) => {
   t = t.replace(/\s*<!-- i18n-head -->[\s\S]*?<!-- \/i18n-head -->/g, "")
        .replace(/\s*<!-- i18n-switch -->[\s\S]*?<!-- \/i18n-switch -->/g, "");
   const head = `\n  <!-- i18n-head -->\n  ${headLinks(P)}\n  <!-- /i18n-head -->\n`;
-  // Pages that already have a theme button (the hand-written home page) only get the language codes
-  const hasTheme = /id="theme-toggle"/.test(t);
-  const tools = hasTheme ? switcher("en", P, dict.es.ui.lang_label) : headerTools("en", P, dict.es.ui.lang_label);
-  const sw = `\n    <!-- i18n-switch -->${tools}<!-- /i18n-switch -->\n  `;
+  // The hand-written home page has its own theme button in a different place. Remove it, so every
+  // English page gets the same header tools in the same position as the translated pages.
+  t = t.replace(/\s*<button class="theme-toggle"[\s\S]*?<\/button>/, "");
+  const sw = `\n    <!-- i18n-switch -->${headerTools("en", P, dict.es.ui.lang_label)}<!-- /i18n-switch -->\n  `;
   t = t.replace("</head>", `${head}</head>`).replace("</header>", `${sw}</header>`);
   await writeFile(path, t, "utf8");
 };
