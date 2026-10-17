@@ -204,7 +204,7 @@ const urlBlocks = report.included.map((r) => {
     : "";
   return `  <url>\n    <loc>${encodeXml(r.url)}</loc>${lastmod}${links}\n  </url>`;
 });
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlBlocks.join("\n")}\n</urlset>\n`;
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlBlocks.join("\n")}\n</urlset>\n`;
 
 await writeFile(new URL("sitemap.xml", ROOT), sitemap, "utf8");
 
