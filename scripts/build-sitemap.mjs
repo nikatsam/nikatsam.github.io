@@ -207,6 +207,8 @@ const urlBlocks = report.included.map((r) => {
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlBlocks.join("\n")}\n</urlset>\n`;
 
 await writeFile(new URL("sitemap.xml", ROOT), sitemap, "utf8");
+// Same content under a second name, for submitting if Search Console keeps a stale fetch status
+await writeFile(new URL("sitemap-main.xml", ROOT), sitemap, "utf8");
 
 await mkdir(new URL("reports/", ROOT), { recursive: true });
 await writeFile(new URL("reports/sitemap-audit.json", ROOT), JSON.stringify(report, null, 2) + "\n", "utf8");
