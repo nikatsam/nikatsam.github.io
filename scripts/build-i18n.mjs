@@ -36,8 +36,13 @@ const headLinks = (P) => {
 };
 
 const CODE = { en: "EN", es: "ES", fr: "FR", de: "DE", pt: "PT", ja: "JA" };
-const switcher = (cur, P, label) => `<nav class="lang-switch" aria-label="${esc(label)}">${["en", ...LANGS]
-  .map((l) => `<a href="${pathFor(l, P)}" hreflang="${l}" lang="${l}" title="${NATIVE[l]}"${l === cur ? ' aria-current="true"' : ""}>${CODE[l]}</a>`).join("")}</nav>`;
+const GLOBE = `<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 3 2.6 15 0 18M12 3c-2.6 3-2.6 15 0 18"/></svg>`;
+const langLinks = (cur, P) => ["en", ...LANGS]
+  .map((l) => `<a href="${pathFor(l, P)}" hreflang="${l}" lang="${l}"${l === cur ? ' aria-current="true"' : ""}>${NATIVE[l]}</a>`).join("");
+// Header: globe button with the current code. Opening it shows every language.
+const switcher = (cur, P, label) => `<details class="lang-menu"><summary aria-label="${esc(label)}: ${NATIVE[cur]}" title="${esc(label)}">${GLOBE}<span>${CODE[cur]}</span></summary><div class="lang-list">${langLinks(cur, P)}</div></details>`;
+// Footer: every language, as plain links
+const footerLangs = (cur, P, label) => `<nav class="footer-langs" aria-label="${esc(label)}">${langLinks(cur, P)}</nav>`;
 
 // The theme switch, shared by every page. main.js handles the click and the T key.
 const THEME_BUTTON = `<button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to light theme" title="Shortcut: T">
@@ -205,6 +210,7 @@ const productPage = async (lang, p) => {
   <footer class="site-footer">
     <p><a href="${home}">Nikatsam</a> · <a href="${home}#projects">${ui.nav_projects}</a></p>
     <p class="muted">${ui.footer_disclaimer}</p>
+    ${footerLangs(lang, P, ui.lang_label)}
   </footer>`,
   });
 };
@@ -289,6 +295,7 @@ ${projects.map((p) => dialog(lang, p)).join("\n")}
   <footer class="site-footer">
     <p>${ui.footer_built} <a href="https://github.com/${cfg.owner}">GitHub</a>.</p>
     <p class="muted">${ui.footer_disclaimer}</p>
+    ${footerLangs(lang, "/", ui.lang_label)}
   </footer>`,
   });
 };
@@ -312,6 +319,7 @@ ${sections}
   </main>
   <footer class="site-footer">
     <p><a href="${home}">Nikatsam</a> · <a href="${home}#projects">${ui.nav_projects}</a></p>
+    ${footerLangs(lang, P, ui.lang_label)}
   </footer>`,
     ld: "",
   });
@@ -325,11 +333,13 @@ const injectEnglish = async (file, P) => {
   t = t.replace(/\s*<!-- i18n-head -->[\s\S]*?<!-- \/i18n-head -->/g, "")
        .replace(/\s*<!-- i18n-switch -->[\s\S]*?<!-- \/i18n-switch -->/g, "");
   const head = `\n  <!-- i18n-head -->\n  ${headLinks(P)}\n  <!-- /i18n-head -->\n`;
+  t = t.replace(/\s*<!-- i18n-footer -->[\s\S]*?<!-- \/i18n-footer -->/g, "");
   // The hand-written home page has its own theme button in a different place. Remove it, so every
   // English page gets the same header tools in the same position as the translated pages.
   t = t.replace(/\s*<button class="theme-toggle"[\s\S]*?<\/button>/, "");
   const sw = `\n    <!-- i18n-switch -->${headerTools("en", P, dict.es.ui.lang_label)}<!-- /i18n-switch -->\n  `;
   t = t.replace("</head>", `${head}</head>`).replace("</header>", `${sw}</header>`);
+  t = t.replace("</footer>", `\n    <!-- i18n-footer -->${footerLangs("en", P, dict.es.ui.lang_label)}<!-- /i18n-footer -->\n  </footer>`);
   await writeFile(path, t, "utf8");
 };
 
