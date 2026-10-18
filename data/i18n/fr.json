@@ -255,7 +255,8 @@
         "h2": "À propos de ce site web",
         "paragraphs": [
           "Ce site web est un ensemble de pages statiques hébergées sur GitHub Pages. Il ne fait que décrire les applications ; les engagements de confidentialité ci-dessus s'appliquent aux applications.",
-          "GitHub, en tant qu'hébergeur, conserve ses propres journaux serveur standard, selon sa propre politique de confidentialité. Je ne peux pas les désactiver et je n'y ai pas accès. Si vous voulez savoir ce qu'il enregistre, lisez la <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">déclaration de confidentialité de GitHub</a>."
+          "GitHub, en tant qu'hébergeur, conserve ses propres journaux serveur standard, selon sa propre politique de confidentialité. Je ne peux pas les désactiver et je n'y ai pas accès. Si vous voulez savoir ce qu'il enregistre, lisez la <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">déclaration de confidentialité de GitHub</a>.",
+          "Ce site web utilise Google Analytics pour compter les visites et voir quelles pages sont consultées. Google Analytics dépose des cookies et envoie à Google des données de visite, comme les pages consultées, votre localisation approximative et le type d'appareil. Découvrez <a href=\"https://policies.google.com/technologies/partner-sites\">comment Google utilise les données des sites qui font appel à ses services</a>. Vous pouvez le bloquer avec les paramètres de confidentialité de votre navigateur ou avec le <a href=\"https://tools.google.com/dlpage/gaoptout\">module de désactivation de Google</a>."
         ]
       },
       {

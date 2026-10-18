@@ -27,6 +27,7 @@ jobs:
           node scripts/build-index.mjs
           node scripts/build-app-pages.mjs
           node scripts/build-i18n.mjs
+          node scripts/add-analytics.mjs
           node scripts/build-feed.mjs
       - name: Rebuild sitemap
         env:

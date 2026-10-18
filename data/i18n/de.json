@@ -255,7 +255,8 @@
         "h2": "Über diese Website",
         "paragraphs": [
           "Diese Website besteht aus statischen Seiten, die auf GitHub Pages gehostet werden. Sie beschreibt nur die Apps; die oben genannten Datenschutzversprechen gelten für die Apps.",
-          "GitHub führt als Hosting-Anbieter eigene Standard-Serverprotokolle nach seiner eigenen Datenschutzrichtlinie. Ich kann diese nicht abschalten und habe keinen Zugriff darauf. Wenn Sie wissen möchten, was protokolliert wird, lesen Sie die <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung von GitHub</a>."
+          "GitHub führt als Hosting-Anbieter eigene Standard-Serverprotokolle nach seiner eigenen Datenschutzrichtlinie. Ich kann diese nicht abschalten und habe keinen Zugriff darauf. Wenn Sie wissen möchten, was protokolliert wird, lesen Sie die <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung von GitHub</a>.",
+          "Diese Website verwendet Google Analytics, um Besuche zu zählen und zu sehen, welche Seiten aufgerufen werden. Google Analytics setzt Cookies und sendet Besuchsdaten an Google, etwa die aufgerufenen Seiten, Ihren ungefähren Standort und Ihren Gerätetyp. Lesen Sie, <a href=\"https://policies.google.com/technologies/partner-sites\">wie Google Daten von Websites nutzt, die seine Dienste verwenden</a>. Sie können es über die Datenschutzeinstellungen Ihres Browsers oder mit dem <a href=\"https://tools.google.com/dlpage/gaoptout\">Deaktivierungs-Add-on von Google</a> blockieren."
         ]
       },
       {

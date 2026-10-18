@@ -255,7 +255,8 @@
         "h2": "Sobre este site",
         "paragraphs": [
           "Este site é um conjunto de páginas estáticas hospedadas no GitHub Pages. Ele apenas descreve os apps; as promessas de privacidade acima se aplicam aos apps.",
-          "O GitHub, como hospedagem, mantém seus próprios registros padrão de servidor sob a política de privacidade dele. Eu não consigo desativá-los e não tenho acesso a eles. Se quiser saber o que ele registra, leia a <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">declaração de privacidade do GitHub</a>."
+          "O GitHub, como hospedagem, mantém seus próprios registros padrão de servidor sob a política de privacidade dele. Eu não consigo desativá-los e não tenho acesso a eles. Se quiser saber o que ele registra, leia a <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">declaração de privacidade do GitHub</a>.",
+          "Este site usa o Google Analytics para contar as visitas e ver quais páginas são acessadas. O Google Analytics define cookies e envia ao Google dados da visita, como as páginas que você vê, sua localização aproximada e o tipo de dispositivo. Veja <a href=\"https://policies.google.com/technologies/partner-sites\">como o Google usa os dados de sites que usam os serviços dele</a>. Você pode bloqueá-lo nas configurações de privacidade do navegador ou com o <a href=\"https://tools.google.com/dlpage/gaoptout\">complemento de desativação do Google</a>."
         ]
       },
       {

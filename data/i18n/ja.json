@@ -255,7 +255,8 @@
         "h2": "このウェブサイトについて",
         "paragraphs": [
           "このウェブサイトは、GitHub Pagesでホストされている静的なページの集まりです。説明しているのはアプリだけで、上に書いたプライバシーの約束はアプリに適用されます。",
-          "ホスティング事業者であるGitHubは、独自のプライバシーポリシーに基づいて標準的なサーバーログを保持しています。私はそれを無効にすることも、アクセスすることもできません。何が記録されるかを知りたい場合は、<a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHubのプライバシー声明</a>をご覧ください。"
+          "ホスティング事業者であるGitHubは、独自のプライバシーポリシーに基づいて標準的なサーバーログを保持しています。私はそれを無効にすることも、アクセスすることもできません。何が記録されるかを知りたい場合は、<a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHubのプライバシー声明</a>をご覧ください。",
+          "このウェブサイトでは、訪問数や閲覧されたページを把握するためにGoogleアナリティクスを使用しています。Googleアナリティクスはクッキーを設定し、閲覧したページ、おおよその位置情報、デバイスの種類などの訪問データをGoogleに送信します。<a href=\"https://policies.google.com/technologies/partner-sites\">Googleのサービスを使用するサイトのデータをGoogleがどのように使用するか</a>をご確認ください。ブラウザのプライバシー設定や、<a href=\"https://tools.google.com/dlpage/gaoptout\">Googleのオプトアウト アドオン</a>でブロックできます。"
         ]
       },
       {
