@@ -4,3 +4,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://nikatsam.github.io/sitemap.xml
+Sitemap: https://nikatsam.github.io/sitemap.txt
