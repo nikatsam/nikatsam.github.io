@@ -14,7 +14,7 @@ PUBLISH_DIR = pathlib.Path(os.environ.get("PUBLISH_DIR", pathlib.Path(os.environ
 REMOTE = "https://github.com/nikatsam/nikatsam.github.io.git"
 SKIP_DIRS = {".git", "reports", "__pycache__"}
 SKIP_SUFFIXES = (".md", ".pyc")
-TRAILER = "Co-Authored-By: Claude Haiku 5.5 <noreply@anthropic.com>"
+TRAILER = "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 
 def run(args, cwd):
